@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">Angular2 + SVG</div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-md-6">
+          <button class="btn btn-primary" (click)="onAdd()">Add SVG-Element</button>
+          <svg width="400" height="400">
+            <g app-svg-element *ngFor="let element of elements" [element]="element"></g>
+          </svg>
+        </div>
+        <div class="col-md-6">      
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Coordinates</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let ele of elements">
+                <td>{{ele.type}}</td>
+                <td>x1:{{ele.x1}} y1:{{ele.y1}} / x2:{{ele.x2}} y2:{{ele.y2}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
