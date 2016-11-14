@@ -7,8 +7,13 @@
       <div class="row">
         <div class="col-md-6">
           <button class="btn btn-primary" (click)="onAdd()">Add SVG-Element</button>
-          <svg width="400" height="400">
+          <span> Move Lines with drag & drop</span>
+          <svg width="400" height="400" 
+                (mousedown)="mouseDown($event)" 
+                (mousemove)="mouseMove($event)"
+                (mouseup)="mouseUp($event)">
             <g app-svg-element *ngFor="let element of elements" [element]="element"></g>
+
           </svg>
         </div>
         <div class="col-md-6">      
