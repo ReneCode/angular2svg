@@ -6,14 +6,16 @@
     <div class="panel-body">
       <div class="row">
         <div class="col-md-6">
-          <button class="btn btn-primary" (click)="onAdd()">Add SVG-Element</button>
+          <button class="btn btn-primary" (click)="addLine()">Add Line</button>
+          <button class="btn btn-primary" (click)="addText()">Add Text</button>
+          <button class="btn btn-primary" (click)="zoomIn()">Zoom In</button>
+          <button class="btn btn-primary" (click)="zoomOut()">Zoom Out</button>
           <span> Move Lines with drag & drop</span>
-          <svg width="400" height="400" 
+          <svg [attr.viewBox]="getViewport()" width="500" height="500" 
                 (mousedown)="mouseDown($event)" 
                 (mousemove)="mouseMove($event)"
                 (mouseup)="mouseUp($event)">
             <g app-svg-element *ngFor="let element of elements" [element]="element"></g>
-
           </svg>
         </div>
         <div class="col-md-6">      
