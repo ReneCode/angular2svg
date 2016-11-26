@@ -12,29 +12,31 @@ export class AppComponent {
     height: 600
   }
 
-  viewport = {
-    x1: 0,
-    y1: 0,
-    x2: 600,
-    y2: 600
-
+  transform = {
+    text: "",
+    tx: 0,
+    ty: 0,
+    sc: 1.0
   }
 
-  currentId = null;
   startX;
   startY;
+  dragging = false;
   elements = []
 
   ngOnInit() {
     this.appendElement( { type:"line", x1:30, y1:140, x2:20, y2:40} );
     this.appendElement( { type:"text", x:130, y:140, text:"hallo"} );
+
+    this.updateTransform();
   }
 
-  getViewport() {
-    let vp = `${this.viewport.x1} ${this.viewport.y1} ${this.viewport.x2} ${this.viewport.y2}`
-    return vp
-  }
 
+  updateTransform() {
+    this.transform.text = 
+        `translate(${this.transform.tx},${this.transform.ty})scale(${this.transform.sc})`;
+    console.log(this.transform.text);
+  }
 
   randInt(max) {
     return Math.floor( Math.random() * max);
@@ -79,46 +81,36 @@ export class AppComponent {
   }
 
   zoomIn() {
-    let dx = this.viewport.x2 - this.viewport.x1
-    let dy = this.viewport.y2 - this.viewport.y1
-
-    if (dx > 10 &&  dx > 10) {
-      this.viewport.x1 += 0.1 * dx
-      this.viewport.x2 -= 0.1 * dx
-      this.viewport.y1 += 0.1 * dy
-      this.viewport.y2 -= 0.1 * dy
-    }
+    this.transform.sc *= 1.1;
+    this.updateTransform();
   }
 
   zoomOut() {
-    let dx = this.viewport.x2 - this.viewport.x1
-    let dy = this.viewport.y2 - this.viewport.y1
-
-    if (dx < 1000 &&  dx < 1000) {
-      this.viewport.x1 -= 0.1 * dx
-      this.viewport.x2 += 0.1 * dx
-      this.viewport.y1 -= 0.1 * dy
-      this.viewport.y2 += 0.1 * dy
-    }
-
+    this.transform.sc *= 0.9;
+    this.updateTransform();
+   
   }
 
   mouseMove(event) {
-    if (this.currentId != null) {
-      this.updateLine(this.currentId, event.clientX, event.clientY);
+    if (this.dragging) {
+      this.transform.tx += event.clientX - this.startX;
+      this.transform.ty += event.clientY - this.startY;
+
+      this.startX = event.clientX;
+      this.startY = event.clientY;
+      
+      this.updateTransform();
     }
   }
 
   mouseUp(event) {
-    this.currentId = null;
+    this.dragging = false;;
   }
 
   mouseDown(event) {
-    const id = Number(event.target.getAttribute("id"));
-    const line = this.elements[id];
     this.startX = event.clientX;
     this.startY = event.clientY;
-    this.currentId = id;
+    this.dragging = true;
   }
 
   updateLine(id, newX, newY) {
