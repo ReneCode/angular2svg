@@ -1,0 +1,27 @@
+
+.button {
+	fill: #225ea8;
+	stroke: #0c2c84;
+	stroke-miterlimit: 6;
+	stroke-linecap: round;
+}
+
+.button:hover {
+	stroke-width: 2;
+}
+
+.circle {
+	fill: white;
+	opacity: 0.75;
+}
+
+.compass {
+	fill: #fff;
+	stroke: #000;
+	stroke-width: 1.5;
+}
+
+.plus-minus {
+	fill: #fff;
+	pointer-events: none;
+}

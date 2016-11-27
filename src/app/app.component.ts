@@ -42,6 +42,32 @@ export class AppComponent {
     return Math.floor( Math.random() * max);
   }
 
+  panZoom(cmd: String) {
+    switch (cmd) {
+      case 'left':
+        this.transform.tx -= 50;
+        break;
+      case 'right':
+        this.transform.tx += 50;
+        break;
+      case 'up':
+        this.transform.ty -= 50;
+        break;
+      case 'down':
+        this.transform.ty += 50;
+        break;
+      case '+':
+        this.transform.sc *= 1.1;
+        break;
+      case '-':
+        this.transform.sc *= 0.9;
+        break;
+    }
+    this.updateTransform();
+  }
+
+
+
   newLine() {
     return {
       id: null,

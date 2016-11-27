@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { SvgElementComponent } from './svg-element/svg-element.component';
+import { PanZoomComponent } from './pan-zoom/pan-zoom.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SvgElementComponent
+    SvgElementComponent,
+    PanZoomComponent
   ],
   imports: [
     BrowserModule,
