@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./svg-element.component.css']
 })
 export class SvgElementComponent  {
-  @Input() element;
+  @Input() public element;
 
 
 }
