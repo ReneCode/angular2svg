@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  useSvg = 'original';
+
   canvas = {
     width: 600,
     height: 600
