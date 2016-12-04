@@ -47,16 +47,16 @@ export class AppComponent {
   panZoom(cmd: String) {
     switch (cmd) {
       case 'left':
-        this.transform.tx -= 50;
-        break;
-      case 'right':
         this.transform.tx += 50;
         break;
+      case 'right':
+        this.transform.tx -= 50;
+        break;
       case 'up':
-        this.transform.ty -= 50;
+        this.transform.ty += 50;
         break;
       case 'down':
-        this.transform.ty += 50;
+        this.transform.ty -= 50;
         break;
       case '+':
         this.transform.sc *= 1.1;
