@@ -12,19 +12,19 @@ export class AppComponent {
   canvas = {
     width: 600,
     height: 600
-  }
+  };
 
   transform = {
-    text: "",
+    text: '',
     tx: 0,
     ty: 0,
     sc: 1.0
-  }
+  };
 
   startX;
   startY;
   dragging = false;
-  elements = []
+  elements = [];
 
   ngOnInit() {
     this.appendElement( { type:"line", x1:30, y1:140, x2:20, y2:40} );
@@ -116,7 +116,6 @@ export class AppComponent {
   zoomOut() {
     this.transform.sc *= 0.9;
     this.updateTransform();
-   
   }
 
   mouseMove(event) {
@@ -126,7 +125,7 @@ export class AppComponent {
 
       this.startX = event.clientX;
       this.startY = event.clientY;
-      
+
       this.updateTransform();
     }
   }

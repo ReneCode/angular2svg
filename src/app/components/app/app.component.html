@@ -8,13 +8,6 @@
       <div class="row">
         <div class="col-md-12">
           <div>
-          </div>
-          <div>
-          </div>
-          <div>
-            <label class="radio-inline"><input name="use" type="radio" [(ngModel)]="useSvg" value="original">Original-ai</label>
-            <label class="radio-inline"><input name="use" type="radio" [(ngModel)]="useSvg" value="modified">Modified</label>
-            <span>  </span>
             <button class="btn btn-primary" (click)="zoomIn()">Zoom In</button>
             <button class="btn btn-primary" (click)="zoomOut()">Zoom Out</button>
           </div>
@@ -25,21 +18,15 @@
                 (mousemove)="mouseMove($event)"
                 (mouseup)="mouseUp($event)">       
             <g [attr.transform]="transform.text">
-
-              <g *ngIf="useSvg == 'modified'" app-svg-eplan-modified></g>
-              <g *ngIf="useSvg == 'original'" app-svg-eplan-original></g>
+              <g app-svg-eplan></g>
             </g>
-
 
             <g transform="translate(700,0)">
               <g app-pan-zoom (onPanZoom)="panZoom($event)"></g>
             </g>
 
-
           </svg>
-
         </div>
-
       </div>
     </div>
   </div>

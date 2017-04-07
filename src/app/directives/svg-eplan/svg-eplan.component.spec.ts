@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { SvgEplanOriginalComponent } from './svg-eplan-original.component';
+import { SvgEplanComponent } from './svg-eplan.component';
 
-describe('SvgEplanOriginalComponent', () => {
-  let component: SvgEplanOriginalComponent;
-  let fixture: ComponentFixture<SvgEplanOriginalComponent>;
+describe('SvgEplanComponent', () => {
+  let component: SvgEplanComponent;
+  let fixture: ComponentFixture<SvgEplanComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SvgEplanOriginalComponent ]
+      declarations: [ SvgEplanComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SvgEplanOriginalComponent);
+    fixture = TestBed.createComponent(SvgEplanComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,21 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
-import { SvgElementComponent } from './svg-element/svg-element.component';
-import { PanZoomComponent } from './pan-zoom/pan-zoom.component';
-import { SvgEplanOriginalComponent } from './svg-eplan-original/svg-eplan-original.component';
-import { SvgEplanModifiedComponent } from './svg-eplan-modified/svg-eplan-modified.component';
+import { AppComponent } from './components/app/app.component';
+import { SvgElementComponent } from './directives/svg-element/svg-element.component';
+import { PanZoomComponent } from './directives/pan-zoom/pan-zoom.component';
+import { SvgEplanComponent } from './directives/svg-eplan/svg-eplan.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SvgElementComponent,
     PanZoomComponent,
-    SvgEplanOriginalComponent,
-    SvgEplanModifiedComponent
+    SvgEplanComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +21,6 @@ import { SvgEplanModifiedComponent } from './svg-eplan-modified/svg-eplan-modifi
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
-//  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
