@@ -1,4 +1,5 @@
 # Angular2SVG
+https://travis-ci.org/ReneCode/angular2svg.svg?branch=master
 
 Working with Angular2 and SVG
 
