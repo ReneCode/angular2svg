@@ -2,13 +2,10 @@
   "name": "angular2svg",
   "version": "0.0.0",
   "license": "MIT",
-  "angular-cli": {},
-
   "repository": {
     "type": "git",
     "url": "https://github.com/ReneCode/angular2svg"
   },
-
   "scripts": {
     "start": "ng serve",
     "lint": "tslint \"src/**/*.ts\"",
@@ -34,7 +31,6 @@
   "devDependencies": {
     "@types/jasmine": "^2.2.30",
     "@types/node": "^6.0.42",
-    "angular-cli": "1.0.0-beta.19-3",
     "codelyzer": "1.0.0-beta.1",
     "jasmine-core": "2.4.1",
     "jasmine-spec-reporter": "2.5.0",
