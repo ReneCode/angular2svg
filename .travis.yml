@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "6"
+
+before_script:
+  - npm install @angular/cli@1.0.0
+
+script:
+  - ng build --prod --environment=prod
+  - bash ./scripts/travis-deploy.sh
+
+
+
+  
