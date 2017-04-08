@@ -1,4 +1,7 @@
 # Angular2SVG
+
+[![Build Status](https://travis-ci.org/ReneCode/angular2svg.svg?branch=master)](https://travis-ci.org/ReneCode/angular2svg)
+
 https://travis-ci.org/ReneCode/angular2svg.svg?branch=master
 
 Working with Angular2 and SVG
@@ -12,14 +15,18 @@ SVG Pan and Zoom Control [Peter Collingridge](http://www.petercollingridge.co.uk
 Emitting Events from child to parent component [angularjs.de](https://angularjs.de/artikel/angular2-output-events)
 
 
-
 use:
 
-	ng serve
+	npm start
 
 for development
 
 
-   	ng build -prod
+	npm run build:prod
 
 for production. Deploy the files in the /dist folder
+
+2017/4/8: 
+- Create SVG Text on 
+- Drag-Drop SVG Text
+- Delete SVG Text
