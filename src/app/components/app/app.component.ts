@@ -71,20 +71,17 @@ export class AppComponent {
     this.appendElement({ type: "text", x: 230, y: 40, text: "neuer text" });
   }
 
-  private getSVGPoint(event) {
-    let svg = document.querySelector('svg');
-    let pt = svg.createSVGPoint();
-
-    pt.x = event.clientX;
-    pt.y = event.clientY;
-    pt = pt.matrixTransform(svg.getScreenCTM().inverse());
-    return pt;
-  }
-
-  private getPoint(event) {
-    return {
-      x: event.clientX,
-      y: event.clientY
+  public deleteText() {
+    // delete all elements, that are selected
+    if (this.selectedSvgElements.length > 0) {
+      this.selectedSvgElements.forEach(e => {
+        // get the index to delete
+        const delIndex = this.svgElements.indexOf(e);
+        if (delIndex >= 0) {
+          // delete that element
+          this.svgElements.splice(delIndex, 1);
+        }
+      })
     };
   }
 
@@ -106,6 +103,25 @@ export class AppComponent {
     }
 
   }
+
+
+  private getSVGPoint(event) {
+    let svg = document.querySelector('svg');
+    let pt = svg.createSVGPoint();
+
+    pt.x = event.clientX;
+    pt.y = event.clientY;
+    pt = pt.matrixTransform(svg.getScreenCTM().inverse());
+    return pt;
+  }
+
+  private getPoint(event) {
+    return {
+      x: event.clientX,
+      y: event.clientY
+    };
+  }
+
 
   private getSVGElementByIndex(index) {
     return this.svgElements.find(e => e.index === index);
