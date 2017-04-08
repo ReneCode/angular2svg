@@ -30,7 +30,10 @@
               </g>-->
 
               <g *ngFor="let element of svgElements">
-                <text class="svg-text" [attr.index]="element.index" [attr.x]="element.x" [attr.y]="element.y" font-size="20">{{element.text}}</text>
+                <g *ngIf="element.selected">
+                  <rect [attr.x]="element.x-5" [attr.y]="element.y-20" width="50" height="30" fill="#67e" />
+                </g>
+                <text class="svg-text selected" [attr.index]="element.index" [attr.x]="element.x" [attr.y]="element.y" font-size="20">{{element.text}}</text>
               </g>
 
             </g>

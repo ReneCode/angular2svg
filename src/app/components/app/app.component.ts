@@ -16,15 +16,14 @@ export class AppComponent {
 
   startX;
   startY;
+  lastElementId: number = 0;
   dragging = false;
   svgElements = [];
   private lasttDraggingPoint;
-  private selectedSvgElements = [];
   statusText = "-ready-";
 
   public ngOnInit() {
     console.log("init");
-    // this.appendElement( { type:"line", x1:30, y1:140, x2:20, y2:40} );
     this.appendElement({ type: "text", x: 30, y: 140, text: "hallo" });
 
     this.updateTransform();
@@ -63,30 +62,29 @@ export class AppComponent {
 
 
   private appendElement(ele) {
-    ele.index = this.svgElements.length;
+    this.lastElementId++;
+    ele.index = this.lastElementId;
     this.svgElements.push(ele);
   }
 
   public addText() {
-    this.appendElement({ type: "text", x: 230, y: 40, text: "neuer text" });
+    this.appendElement({ type: "text", x: 200, y: 100, text: "new text" });
   }
 
   public deleteText() {
     // delete all elements, that are selected
-    if (this.selectedSvgElements.length > 0) {
-      this.selectedSvgElements.forEach(e => {
-        // get the index to delete
-        const delIndex = this.svgElements.indexOf(e);
-        if (delIndex >= 0) {
-          // delete that element
-          this.svgElements.splice(delIndex, 1);
-        }
-      })
-    };
+    this.selectedSvgElements().forEach(e => {
+      // get the index to delete
+      const delIndex = this.svgElements.indexOf(e);
+      if (delIndex >= 0) {
+        // delete that element
+        this.svgElements.splice(delIndex, 1);
+      }
+    });
   }
 
   public mouseMove(event) {
-    if (this.dragging && this.selectedSvgElements.length > 0) {
+    if (this.dragging) {
 
       let pt = this.getSVGPoint(event);
       // var ele = document.querySelector(':hover');
@@ -96,12 +94,17 @@ export class AppComponent {
       let deltaY = pt.y - this.lasttDraggingPoint.y;
       this.lasttDraggingPoint = pt;
 
-      this.selectedSvgElements.forEach(e => {
-        e.x += deltaX;
-        e.y += deltaY;
-      })
+      this.selectedSvgElements()
+        .forEach(e => {
+          e.x += deltaX;
+          e.y += deltaY;
+        });
     }
 
+  }
+
+  private selectedSvgElements(): any[] {
+    return this.svgElements.filter(e => e.selected === true);
   }
 
 
@@ -130,24 +133,19 @@ export class AppComponent {
   public mouseDown(event) {
     let pt = this.getPoint(event);
 
-    var element, elements = [];
-    var old_visibility = [];
-    // while (true) {
-    element = document.elementFromPoint(pt.x, pt.y);
+    let element = document.elementFromPoint(pt.x, pt.y);
     if (element && element !== document.documentElement) {
       let index = parseInt(element.getAttribute("index"));
       let svgElement = this.getSVGElementByIndex(index);
       if (svgElement) {
-        this.selectedSvgElements = [];
-        this.selectedSvgElements.push(svgElement);
+        svgElement.selected = true;
         this.dragging = true;
         this.lasttDraggingPoint = this.getSVGPoint(event);
-      }
-      else {
-        this.selectedSvgElements = [];
+      } else {
+        this.svgElements.forEach(e => e.selected = false);
       }
 
-      this.statusText = element;
+      // this.statusText = element;
       // }
       // elements.push(element);
       // old_visibility.push(element.style.visibility);
