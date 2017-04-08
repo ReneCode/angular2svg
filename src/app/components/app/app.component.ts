@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  private transform = {
+  public transform = {
     text: '',
     tx: 0,
     ty: 0,
@@ -37,7 +37,7 @@ export class AppComponent {
     console.log(this.transform.text);
   }
 
-  private panZoom(cmd: String) {
+  public panZoom(cmd: String) {
     switch (cmd) {
       case 'left':
         this.transform.tx += 50;
@@ -67,7 +67,7 @@ export class AppComponent {
     this.svgElements.push(ele);
   }
 
-  private addText() {
+  public addText() {
     this.appendElement({ type: "text", x: 230, y: 40, text: "neuer text" });
   }
 
@@ -88,7 +88,7 @@ export class AppComponent {
     };
   }
 
-  private mouseMove(event) {
+  public mouseMove(event) {
     if (this.dragging && this.selectedSvgElements.length > 0) {
 
       let pt = this.getSVGPoint(event);
@@ -111,7 +111,7 @@ export class AppComponent {
     return this.svgElements.find(e => e.index === index);
   }
 
-  private mouseDown(event) {
+  public mouseDown(event) {
     let pt = this.getPoint(event);
 
     var element, elements = [];
@@ -144,7 +144,7 @@ export class AppComponent {
     // return elements;
   }
 
-  private mouseUp(event) {
+  public mouseUp(event) {
     this.dragging = false;
   }
 
