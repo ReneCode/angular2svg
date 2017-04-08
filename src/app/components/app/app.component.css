@@ -1,3 +1,7 @@
 .canvas {
 	background-color: #eaeaea;
 }
+
+.svg-text:hover {
+	cursor: pointer;
+}

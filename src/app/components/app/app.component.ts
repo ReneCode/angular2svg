@@ -7,14 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  useSvg = 'original';
-
-  canvas = {
-    width: 600,
-    height: 600
-  };
-
-  transform = {
+  private transform = {
     text: '',
     tx: 0,
     ty: 0,
@@ -24,27 +17,27 @@ export class AppComponent {
   startX;
   startY;
   dragging = false;
-  elements = [];
+  svgElements = [];
+  private lasttDraggingPoint;
+  private selectedSvgElements = [];
+  statusText = "-ready-";
 
-  ngOnInit() {
-    this.appendElement( { type:"line", x1:30, y1:140, x2:20, y2:40} );
-    this.appendElement( { type:"text", x:130, y:140, text:"hallo"} );
+  public ngOnInit() {
+    console.log("init");
+    // this.appendElement( { type:"line", x1:30, y1:140, x2:20, y2:40} );
+    this.appendElement({ type: "text", x: 30, y: 140, text: "hallo" });
 
     this.updateTransform();
   }
 
 
-  updateTransform() {
-    this.transform.text = 
-        `translate(${this.transform.tx},${this.transform.ty})scale(${this.transform.sc})`;
+  private updateTransform() {
+    this.transform.text =
+      `translate(${this.transform.tx},${this.transform.ty})scale(${this.transform.sc})`;
     console.log(this.transform.text);
   }
 
-  randInt(max) {
-    return Math.floor( Math.random() * max);
-  }
-
-  panZoom(cmd: String) {
+  private panZoom(cmd: String) {
     switch (cmd) {
       case 'left':
         this.transform.tx += 50;
@@ -69,92 +62,112 @@ export class AppComponent {
   }
 
 
+  private appendElement(ele) {
+    ele.index = this.svgElements.length;
+    this.svgElements.push(ele);
+  }
 
-  newLine() {
+  private addText() {
+    this.appendElement({ type: "text", x: 230, y: 40, text: "neuer text" });
+  }
+
+  private getSVGPoint(event) {
+    let svg = document.querySelector('svg');
+    let pt = svg.createSVGPoint();
+
+    pt.x = event.clientX;
+    pt.y = event.clientY;
+    pt = pt.matrixTransform(svg.getScreenCTM().inverse());
+    return pt;
+  }
+
+  private getPoint(event) {
     return {
-      id: null,
-      type:"line",
-      x1: this.randInt(this.canvas.width),
-      y1: this.randInt(this.canvas.height),
-      x2: this.randInt(this.canvas.width),
-      y2: this.randInt(this.canvas.height)
+      x: event.clientX,
+      y: event.clientY
+    };
+  }
+
+  private mouseMove(event) {
+    if (this.dragging && this.selectedSvgElements.length > 0) {
+
+      let pt = this.getSVGPoint(event);
+      // var ele = document.querySelector(':hover');
+      this.statusText = pt.x + "/" + pt.y;
+
+      let deltaX = pt.x - this.lasttDraggingPoint.x;
+      let deltaY = pt.y - this.lasttDraggingPoint.y;
+      this.lasttDraggingPoint = pt;
+
+      this.selectedSvgElements.forEach(e => {
+        e.x += deltaX;
+        e.y += deltaY;
+      })
     }
+
   }
 
-  newText() {
-    return {
-      id: null,
-      type:"text", 
-      x: this.randInt(this.canvas.width), 
-      y: this.randInt(this.canvas.height),
-      text:"Text-" + this.randInt(100) 
+  private getSVGElementByIndex(index) {
+    return this.svgElements.find(e => e.index === index);
+  }
+
+  private mouseDown(event) {
+    let pt = this.getPoint(event);
+
+    var element, elements = [];
+    var old_visibility = [];
+    // while (true) {
+    element = document.elementFromPoint(pt.x, pt.y);
+    if (element && element !== document.documentElement) {
+      let index = parseInt(element.getAttribute("index"));
+      let svgElement = this.getSVGElementByIndex(index);
+      if (svgElement) {
+        this.selectedSvgElements = [];
+        this.selectedSvgElements.push(svgElement);
+        this.dragging = true;
+        this.lasttDraggingPoint = this.getSVGPoint(event);
+      }
+      else {
+        this.selectedSvgElements = [];
+      }
+
+      this.statusText = element;
+      // }
+      // elements.push(element);
+      // old_visibility.push(element.style.visibility);
+      // element.style.visibility = 'hidden'; // Temporarily hide the element (without changing the layout)
     }
+    // for (var k = 0; k < elements.length; k++) {
+    //   elements[k].style.visibility = old_visibility[k];
+    // }
+    // elements.reverse();
+    // return elements;
   }
 
-  appendElement(ele) {
-    ele.id = this.elements.length;
-    this.elements.push(ele);
+  private mouseUp(event) {
+    this.dragging = false;
   }
 
+  // private mouseMove(event) {
+  //   if (this.dragging) {
+  //     this.transform.tx += event.clientX - this.startX;
+  //     this.transform.ty += event.clientY - this.startY;
 
-  addLine() {
-    let ele = this.newLine();
-    this.appendElement(ele);
-  }
+  //     this.startX = event.clientX;
+  //     this.startY = event.clientY;
 
-  addText() {
-    let ele = this.newText();
-    this.appendElement(ele);
-    
-  }
+  //     this.updateTransform();
+  //   }
+  // }
 
-  zoomIn() {
-    this.transform.sc *= 1.1;
-    this.updateTransform();
-  }
+  // private mouseUp(event) {
+  //   this.dragging = false;;
+  // }
 
-  zoomOut() {
-    this.transform.sc *= 0.9;
-    this.updateTransform();
-  }
-
-  mouseMove(event) {
-    if (this.dragging) {
-      this.transform.tx += event.clientX - this.startX;
-      this.transform.ty += event.clientY - this.startY;
-
-      this.startX = event.clientX;
-      this.startY = event.clientY;
-
-      this.updateTransform();
-    }
-  }
-
-  mouseUp(event) {
-    this.dragging = false;;
-  }
-
-  mouseDown(event) {
-    this.startX = event.clientX;
-    this.startY = event.clientY;
-    this.dragging = true;
-  }
-
-  updateLine(id, newX, newY) {
-    let dx = newX - this.startX;
-    let dy = newY - this.startY;
-    this.startX += dx;
-    this.startY += dy;
-
-    var ele = this.elements[id]
-    ele.x1 += dx;
-    ele.y1 += dy;
-    ele.x2 += dx;
-    ele.y2 += dy;
-
-    this.elements[id] = ele;
-
-  }
-
+  // private mouseDown(event) {
+  //   this.startX = event.clientX;
+  //   this.startY = event.clientY;
+  //   this.dragging = true;
+  // }
 
 }

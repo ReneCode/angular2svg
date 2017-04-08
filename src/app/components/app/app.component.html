@@ -2,27 +2,41 @@
   <div class="panel panel-default">
     <div class="panel-heading">
       Angular2 + SVG | <a href="https://github.com/ReneCode/angular2svg">github repository</a> |
-            <a href="http://petercollingridge.appspot.com/svg-optimiser">using SVG optimizer</a>
+      <a href="http://petercollingridge.appspot.com/svg-optimiser">using SVG optimizer</a>
     </div>
     <div class="panel-body">
       <div class="row">
         <div class="col-md-12">
           <div>
-            <button class="btn btn-primary" (click)="zoomIn()">Zoom In</button>
-            <button class="btn btn-primary" (click)="zoomOut()">Zoom Out</button>
+            <button class="btn btn-primary" (click)="addText()">Text</button>
           </div>
 
-          <svg width="800" height="600"
-              style='stroke-width: 0px; background-color: #eee;' 
-                (mousedown)="mouseDown($event)" 
-                (mousemove)="mouseMove($event)"
-                (mouseup)="mouseUp($event)">       
-            <g [attr.transform]="transform.text">
-              <g app-svg-eplan></g>
-            </g>
+          <svg width="800" height="600" style='stroke-width: 0px; background-color: #eee;' (mousedown)="mouseDown($event)" (mousemove)="mouseMove($event)"
+            (mouseup)="mouseUp($event)">
+            <g id="main" [attr.transform]="transform.text">
+              <!--<g app-svg-eplan></g>
 
+              <g id="b">
+                <text x="0" y="15" fill="black">
+                  Rectangle #1: Without opacity.</text>
+                <rect x="100" y="30" width="300" height="100" style="fill:rgb(121,0,121);stroke-width:3;stroke:rgb(0,0,0)" />
+              </g>
+              <g id="a">
+                <text x="0" y="215" fill="black">
+                  Rectangle #2: With opacity </text>
+                <rect x="100" y="230" width="300" height="100" style="fill:rgb(121,0,121);stroke-width:3;stroke:rgb(0,0,0);
+ stroke-opacity:0.2;opacity:0.2" />
+              </g>-->
+
+              <g *ngFor="let element of svgElements">
+                <text class="svg-text" [attr.index]="element.index" [attr.x]="element.x" [attr.y]="element.y" font-size="20">{{element.text}}</text>
+              </g>
+
+            </g>
             <g transform="translate(700,0)">
               <g app-pan-zoom (onPanZoom)="panZoom($event)"></g>
+              <text x="-400" y="20" font-size="15">{{statusText}}</text>
+
             </g>
 
           </svg>
