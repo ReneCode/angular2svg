@@ -22,7 +22,7 @@ export class AppComponent {
   dragging = false;
   svgElements: SvgItem[] = [];
   private lasttDraggingPoint;
-  statusText = '-ready-';
+  statusText = '-status-';
 
   public ngOnInit() {
     console.log('init');
@@ -89,12 +89,10 @@ export class AppComponent {
   }
 
   public mouseMove(event) {
+    let pt = this.getSVGPoint(event);
+    this.statusText = pt.x + '/' + pt.y;
+
     if (this.dragging) {
-
-      let pt = this.getSVGPoint(event);
-      // var ele = document.querySelector(':hover');
-      this.statusText = pt.x + '/' + pt.y;
-
       let deltaX = pt.x - this.lasttDraggingPoint.x;
       let deltaY = pt.y - this.lasttDraggingPoint.y;
       this.lasttDraggingPoint = pt;
