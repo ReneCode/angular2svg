@@ -7,7 +7,7 @@ export class SvgText extends SvgItem {
     public y: number;
 
     constructor(text: string, x: number, y: number) {
-        super();
+        super('text');
         this.text = text;
         this.x = x;
         this.y = y;

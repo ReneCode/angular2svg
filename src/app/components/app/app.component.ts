@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { SvgText } from '../../models/svg-text'
-import { SvgItem } from '../../models/svg-item'
+import { SvgText } from '../../models/svg-text';
+import { SvgItem } from '../../models/svg-item';
 
 @Component({
   selector: 'app-root',
@@ -22,10 +22,10 @@ export class AppComponent {
   dragging = false;
   svgElements: SvgItem[] = [];
   private lasttDraggingPoint;
-  statusText = "-ready-";
+  statusText = '-ready-';
 
   public ngOnInit() {
-    console.log("init");
+    console.log('init');
 
     let text = new SvgText('hallo', 30, 150);
     this.appendElement(text);
@@ -67,13 +67,13 @@ export class AppComponent {
 
   private appendElement(element: SvgItem): SvgItem {
     this.lastElementId++;
-    element.index = this.lastElementId;
+    element.id = this.lastElementId;
     this.svgElements.push(element);
     return element;
   }
 
   public addText() {
-    let text = this.appendElement(new SvgText("text", 200, 100));
+    this.appendElement(new SvgText('text', 200, 100));
   }
 
   public deleteText() {
@@ -93,7 +93,7 @@ export class AppComponent {
 
       let pt = this.getSVGPoint(event);
       // var ele = document.querySelector(':hover');
-      this.statusText = pt.x + "/" + pt.y;
+      this.statusText = pt.x + '/' + pt.y;
 
       let deltaX = pt.x - this.lasttDraggingPoint.x;
       let deltaY = pt.y - this.lasttDraggingPoint.y;
@@ -131,8 +131,8 @@ export class AppComponent {
   }
 
 
-  private getSVGElementByIndex(index) {
-    return this.svgElements.find(e => e.index === index);
+  private getSVGElementById(id) {
+    return this.svgElements.find(e => e.id === id);
   }
 
   public mouseDown(event) {
@@ -140,8 +140,8 @@ export class AppComponent {
 
     let element = document.elementFromPoint(pt.x, pt.y);
     if (element && element !== document.documentElement) {
-      let index = parseInt(element.getAttribute("index"));
-      let svgElement = this.getSVGElementByIndex(index);
+      let id = parseInt(element.getAttribute('id'));
+      let svgElement = this.getSVGElementById(id);
       if (svgElement) {
         svgElement.selected = true;
         this.dragging = true;

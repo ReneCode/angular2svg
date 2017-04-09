@@ -1,0 +1,7 @@
+.svg-text:hover {
+	cursor: pointer;
+}
+
+.selected {
+	border: 1px solid black;
+}

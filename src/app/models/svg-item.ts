@@ -1,6 +1,11 @@
 
 export class SvgItem {
-    public index: number;
+    public type: string;
+    public id: number;
     public selected: boolean;
+
+    constructor(type: string) {
+        this.type = type;
+    }
 
 };

@@ -7,13 +7,15 @@ import { AppComponent } from './components/app/app.component';
 import { SvgElementComponent } from './directives/svg-element/svg-element.component';
 import { PanZoomComponent } from './directives/pan-zoom/pan-zoom.component';
 import { SvgEplanComponent } from './directives/svg-eplan/svg-eplan.component';
+import { SvgTextComponent } from './components/svg-text/svg-text.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SvgElementComponent,
     PanZoomComponent,
-    SvgEplanComponent
+    SvgEplanComponent,
+    SvgTextComponent
   ],
   imports: [
     BrowserModule,

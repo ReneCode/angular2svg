@@ -12,6 +12,7 @@
             <button class="btn btn-warning" (click)="deleteText()">Delete</button>
           </div>
 
+
           <svg width="800" height="600" style='stroke-width: 0px; background-color: #eee;' (mousedown)="mouseDown($event)" (mousemove)="mouseMove($event)"
             (mouseup)="mouseUp($event)">
             <g id="main" [attr.transform]="transform.text">
@@ -29,11 +30,10 @@
  stroke-opacity:0.2;opacity:0.2" />
               </g>-->
 
+
+
               <g *ngFor="let element of svgElements">
-                <g *ngIf="element.selected">
-                  <rect [attr.x]="element.x-5" [attr.y]="element.y-20" width="50" height="30" fill="#67e" />
-                </g>
-                <text class="svg-text selected" [attr.index]="element.index" [attr.x]="element.x" [attr.y]="element.y" font-size="20">{{element.text}}</text>
+                <g *ngIf="element.type==='text'" app-svg-text [element]="element"></g>
               </g>
 
             </g>
