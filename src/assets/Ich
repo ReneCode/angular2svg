@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="svgElement" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="420mm" height="297mm" viewBox="0 0 420 297">
+ <title>=A06+A2&amp;EFS1/2</title>
+ <g id="transformation" transform="matrix(1,0,0,-1,-0,297)">
+  <defs>
+   <style type="text/css"><![CDATA[
+svg{background:rgb(255,255,255)}
+.P5{stroke: rgb(0,0,0); stroke-width: 0.25; stroke-linecap: round; stroke-dasharray: none; fill: none}
+.P0{stroke: rgb(0,0,0); stroke-width: 0.25; stroke-linecap: square; stroke-dasharray: none; fill: none}
+.P2{stroke: rgb(0,0,0); stroke-width: 0.25; stroke-linecap: butt; stroke-dasharray: none; fill: none}
+.P4{stroke: rgb(0,0,0); stroke-width: 0.35; stroke-linecap: round; stroke-dasharray: none; fill: none}
+.P1{stroke: rgb(0,0,0); stroke-width: 0.35; stroke-linecap: square; stroke-dasharray: none; fill: none}
+.P3{stroke: rgb(0,0,0); stroke-width: 0.35; stroke-linecap: butt; stroke-dasharray: none; fill: none}
+.P9{stroke: rgb(255,0,0); stroke-width: 0.25; stroke-linecap: round; stroke-dasharray: none; fill: none}
+.P11{stroke: rgb(255,255,0); stroke-width: 0.25; stroke-linecap: round; stroke-dasharray: none; fill: rgb(255,255,0)}
+.P6{stroke: rgb(0,255,0); stroke-width: 0.25; stroke-linecap: round; stroke-dasharray: none; fill: none}
+.P7{stroke: rgb(0,0,255); stroke-width: 0.25; stroke-linecap: round; stroke-dasharray: none; fill: none}
+.P8{stroke: rgb(0,0,255); stroke-width: 0.25; stroke-linecap: round; stroke-dasharray: none; fill: none}
+.P10{stroke: rgb(0,0,255); stroke-width: 0.25; stroke-linecap: round; stroke-dasharray: none; fill: rgb(0,0,255)}
+.P12{stroke: rgb(0,127,127); stroke-width: 0.25; stroke-linecap: round; stroke-dasharray: 3.192,0.399,0.25,0.399; fill: none}
+text.F6{fill: rgb(0,0,0); font-size: 1.6146px; text-anchor: start; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F15{fill: rgb(255,0,0); font-size: 1.6146px; text-anchor: start; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F7{fill: rgb(0,0,0); font-size: 2.2356px; text-anchor: start; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F16{fill: rgb(0,0,0); font-size: 2.2356px; text-anchor: middle; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F2{fill: rgb(0,0,0); font-size: 2.2356px; text-anchor: start; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F4{fill: rgb(0,0,0); font-size: 2.2356px; text-anchor: middle; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F9{fill: rgb(0,0,0); font-size: 2.2356px; text-anchor: start; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F12{fill: rgb(0,0,0); font-size: 2.2356px; text-anchor: middle; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F10{fill: rgb(0,0,0); font-size: 2.2356px; text-anchor: end; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F0{fill: rgb(0,0,0); font-size: 2.2356px; text-anchor: start; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F3{fill: rgb(0,0,0); font-size: 2.2356px; text-anchor: end; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F14{fill: rgb(0,0,255); font-size: 2.2356px; text-anchor: end; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F1{fill: rgb(0,0,0); font-size: 3.105px; text-anchor: start; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F5{fill: rgb(0,0,0); font-size: 3.105px; text-anchor: end; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F11{fill: rgb(0,0,255); font-size: 3.105px; text-anchor: end; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F13{fill: rgb(0,0,255); font-size: 3.105px; text-anchor: end; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F8{fill: rgb(255,0,255); font-size: 3.105px; text-anchor: start; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+text.F17{fill: rgb(0,0,255); font-size: 4.347px; text-anchor: end; dominant-baseline: alphabetic; font-family: Tahoma,Verdana}
+
+]]></style>
+  </defs>
+  <g transform="scale(1)" id="page">
+   <desc>Page</desc>
+  </g>
+  <g>
+   <desc>Frame</desc>
+   <g>
+    <desc>group</desc>
+    <g>
+     <desc>group</desc>
+     <path class="P0" d="M 248.149 4.00654 420 4"/>
+     <text class="F0" x="404.030741315988" y="1.25111842164923" transform="translate(404.031 1.25112) scale(1,-1) translate(-404.031 -1.25112)">von</text>
+     <text class="F0" x="384.833717373665" y="1.21955793016815" transform="translate(384.834 1.21956) scale(1,-1) translate(-384.834 -1.21956)">Blatt</text>
+     <path class="P0" d="M 40 0 V 16"/>
+     <text class="F1" x="61" y="8.8028396669516" transform="translate(61 8.80284) scale(1,-1) translate(-61 -8.80284)">Schleifmaschine</text>
+     <text class="F0" x="272.098892685864" y="1.21249179942056" transform="translate(272.099 1.21249) scale(1,-1) translate(-272.099 -1.21249)">Bearb.</text>
+     <text class="F1" x="5.27912010805112" y="17" transform="translate(5.27912 17) scale(1,-1) translate(-5.27912 -17)">1</text>
+     <text class="F2" x="140.594752908096" y="10.5294148920078" transform="translate(140.595 10.5294) scale(1,-1) translate(-140.595 -10.5294)">001</text>
+     <path class="P0" d="M 312.044 7.95086 419.947 7.94222"/>
+     <path class="P1" d="M 188 1.70974e-14 V 16"/>
+     <text class="F3" x="311.400249979507" y="1.13599021808363" transform="translate(311.4 1.13599) scale(1,-1) translate(-311.4 -1.13599)">EPL</text>
+     <path class="P0" d="M 20 0 V 16"/>
+     <text class="F0" x="21" y="1" transform="translate(21 1) scale(1,-1) translate(-21 -1)">Datum</text>
+     <path class="P0" d="M 247.998 0 V 15.912"/>
+     <path class="P0" d="M 0 12 H 140.017"/>
+     <text class="F0" x="248.732882277481" y="1.21088593509746" transform="translate(248.733 1.21089) scale(1,-1) translate(-248.733 -1.21089)">Datum</text>
+     <path class="P1" d="M 4 292 H 420"/>
+     <text class="F4" x="71.9776406702589" y="293.447436007333" transform="translate(71.9776 293.447) scale(1,-1) translate(-71.9776 -293.447)">1</text>
+     <text class="F0" x="1" y="1" transform="translate(1 1) scale(1,-1) translate(-1 -1)">Änderung</text>
+     <text class="F4" x="311.984305856641" y="293.504194054622" transform="translate(311.984 293.504) scale(1,-1) translate(-311.984 -293.504)">7</text>
+     <text class="F4" x="271.992817903989" y="293.493177440772" transform="translate(271.993 293.493) scale(1,-1) translate(-271.993 -293.493)">6</text>
+     <text class="F4" x="351.998230475172" y="293.522701966245" transform="translate(351.998 293.523) scale(1,-1) translate(-351.998 -293.523)">8</text>
+     <path class="P2" d="M 340 12 312.04 11.9993"/>
+     <text class="F4" x="396.000199290373" y="293.531632655855" transform="translate(396 293.532) scale(1,-1) translate(-396 -293.532)">9</text>
+     <text class="F4" x="151.981903779254" y="293.45749641782" transform="translate(151.982 293.457) scale(1,-1) translate(-151.982 -293.457)">3</text>
+     <path class="P1" d="M 0 16 H 420"/>
+     <path class="P1" d="M 0 0 H 420 V 297 H 0 Z"/>
+     <text class="F3" x="419.032377760934" y="1.27016907306577" transform="translate(419.032 1.27017) scale(1,-1) translate(-419.032 -1.27017)">214</text>
+     <text class="F5" x="414.42900282892" y="17.0507542317025" transform="translate(414.429 17.0508) scale(1,-1) translate(-414.429 -17.0508)">3</text>
+     <path class="P1" d="M 60 0 V 16"/>
+     <path class="P0" d="M 52.0003 296.959 52.0003 292.056"/>
+     <path class="P0" d="M 0 4 H 140"/>
+     <path class="P0" d="M 348.027 15.9787 348.006 0.0684881"/>
+     <text class="F4" x="191.99628607889" y="293.486563460856" transform="translate(191.996 293.487) scale(1,-1) translate(-191.996 -293.487)">4</text>
+     <path class="P0" d="M 0 8 H 60"/>
+     <text class="F3" x="271.190490351269" y="1.22756043045661" transform="translate(271.19 1.22756) scale(1,-1) translate(-271.19 -1.22756)">14.09.2016</text>
+     <text class="F3" x="401.884254727365" y="1.28174029159126" transform="translate(401.884 1.28174) scale(1,-1) translate(-401.884 -1.28174)">152</text>
+     <text class="F4" x="111.970041889177" y="293.476791890799" transform="translate(111.97 293.477) scale(1,-1) translate(-111.97 -293.477)">2</text>
+     <text class="F0" x="41" y="1" transform="translate(41 1) scale(1,-1) translate(-41 -1)">Name</text>
+     <text class="F4" x="232.021557401989" y="293.48039456123" transform="translate(232.022 293.48) scale(1,-1) translate(-232.022 -293.48)">5</text>
+     <path class="P3" d="M 4.00157 297.019 V 16.0193"/>
+     <text class="F1" x="188.799408475084" y="12" transform="translate(188.799 12) scale(1,-1) translate(-188.799 -12)">EPLAN Software &amp; Service</text>
+     <text class="F1" x="188.799408475084" y="8.25" transform="translate(188.799 8.25) scale(1,-1) translate(-188.799 -8.25)">GmbH &amp; Co. KG</text>
+     <path class="P0" d="M 380 12 H 340"/>
+     <path class="P0" d="M 384.012 15.8395 384.017 0.162325"/>
+     <path class="P0" d="M 420 12 H 380"/>
+     <text class="F0" x="384.7" y="13.1518021501079" transform="translate(384.7 13.1518) scale(1,-1) translate(-384.7 -13.1518)">&amp;EFS1</text>
+     <text class="F0" x="348.54" y="5.27132605033306" transform="translate(348.54 5.27133) scale(1,-1) translate(-348.54 -5.27133)">+A2</text>
+     <text class="F0" x="348.54" y="13.0969065936283" transform="translate(348.54 13.0969) scale(1,-1) translate(-348.54 -13.0969)">=A06</text>
+     <text class="F1" x="248.468196418163" y="12.1213520475445" transform="translate(248.468 12.1214) scale(1,-1) translate(-248.468 -12.1214)">Not-Halt-Schalter</text>
+     <path class="P0" d="M 92.0007 296.956 92.0007 292.053"/>
+     <path class="P0" d="M 132.002 296.938 132.002 292.035"/>
+     <path class="P0" d="M 171.997 296.895 171.997 291.992"/>
+     <path class="P0" d="M 211.997 296.916 211.997 292.013"/>
+     <path class="P0" d="M 251.992 296.934 251.992 292.031"/>
+     <path class="P0" d="M 291.999 296.967 291.999 292.063"/>
+     <path class="P0" d="M 332.004 296.966 332.004 292.063"/>
+     <path class="P0" d="M 371.996 296.943 371.998 292.041"/>
+     <text class="F4" x="27.9827289040403" y="293.455763645061" transform="translate(27.9827 293.456) scale(1,-1) translate(-27.9827 -293.456)">0</text>
+     <text class="F3" x="419.043248985246" y="5.31685423855664" transform="translate(419.043 5.31685) scale(1,-1) translate(-419.043 -5.31685)">2</text>
+     <path class="P0" d="M 271.517 3.95667 V 0.0154149"/>
+     <path class="P0" d="M 312.036 15.8172 312.051 0.266978"/>
+     <text class="F6" x="384.710661832986" y="9.79286518958974" transform="translate(384.711 9.79287) scale(1,-1) translate(-384.711 -9.79287)">Schaltplan Elektrotechnik</text>
+     <text class="F6" x="348.536644112937" y="9.81453787429763" transform="translate(348.537 9.81454) scale(1,-1) translate(-348.537 -9.81454)">Not-Halt-Steuerung</text>
+     <text class="F6" x="348.54" y="1.71517946869509" transform="translate(348.54 1.71518) scale(1,-1) translate(-348.54 -1.71518)">Schaltschrank 2</text>
+     <path class="P1" d="M 140.017 0.183777 V 15.9649"/>
+     <text class="F0" x="384.804989738925" y="5.27021337450207" transform="translate(384.805 5.27021) scale(1,-1) translate(-384.805 -5.27021)">Seite</text>
+     <text class="F2" x="79.4635039576668" y="13.0320456217017" transform="translate(79.4635 13.032) scale(1,-1) translate(-79.4635 -13.032)">[ESS]_Sample_Project</text>
+     <text class="F0" x="140.767849048494" y="1.41680491990085" transform="translate(140.768 1.4168) scale(1,-1) translate(-140.768 -1.4168)">Geprüft von</text>
+     <path class="P4" d="M 140.061 4.07653 H 188"/>
+     <text class="F2" x="60.82064998788" y="13.0773641940501" transform="translate(60.8206 13.0774) scale(1,-1) translate(-60.8206 -13.0774)">Projektname</text>
+     <text class="F2" x="140.685183964082" y="7.35480393681409" transform="translate(140.685 7.3548) scale(1,-1) translate(-140.685 -7.3548)">Zeichnungsnummer</text>
+     <text class="F2" x="140.641373102008" y="13.6694288984369" transform="translate(140.641 13.6694) scale(1,-1) translate(-140.641 -13.6694)">Projektnummer</text>
+     <path class="P3" d="M 139.988 9.43805 H 187.971"/>
+     <text class="F2" x="60.7601724136064" y="1.11358692602741" transform="translate(60.7602 1.11359) scale(1,-1) translate(-60.7602 -1.11359)">Ersteller</text>
+     <text class="F2" x="79.4030263833932" y="1.06826835367901" transform="translate(79.403 1.06827) scale(1,-1) translate(-79.403 -1.06827)">PEP</text>
+     <image x="237.595433324148" y="0.480922075816277" height="15" width="9.81566820276501" xlink:href="EPLAN_LOGO.png" transform="translate(237.595 7.98092) scale(1,-1) translate(-237.595 -7.98092)"/>
+     <text class="F7" x="2.83669582005522" y="16.5057058716013" transform="translate(2.8367 16.5057) rotate(90) scale(1,-1) translate(-2.8367 -16.5057)">Urheberechtlich geschützt. Die Weitergabe sowie Vervielfältigung dieses Dokuments, Verwertung und Mitteilung seines Inhalts sind verboten, soweit nicht ausdrücklich gestattet.</text>
+    </g>
+   </g>
+  </g>
+  <g transform="scale(1)" id="page">
+   <desc>Page</desc>
+   <g>
+    <desc>group</desc>
+    <g>
+     <desc>group</desc>
+     <path class="P5" d="M 176 264 H 188"/>
+     <path class="P5" d="M 176 264 V 260"/>
+     <path class="P5" d="M 56 264 H 68"/>
+     <path class="P5" d="M 56 264 V 260"/>
+     <path class="P5" d="M 68 264 V 96.75"/>
+     <path class="P5" d="M 112 264 H 100"/>
+     <path class="P5" d="M 112 264 V 96.75"/>
+     <path class="P5" d="M 100 264 V 260"/>
+     <path class="P5" d="M 188 264 V 200.75"/>
+     <path class="P5" d="M 220 264 H 232"/>
+     <path class="P5" d="M 220 264 V 260"/>
+     <path class="P5" d="M 232 264 V 200.75"/>
+     <path class="P5" d="M 296 264 H 308"/>
+     <path class="P5" d="M 296 264 V 260"/>
+     <path class="P5" d="M 308 264 V 200.75"/>
+     <path class="P5" d="M 340 264 H 352"/>
+     <path class="P5" d="M 340 264 V 260"/>
+     <path class="P5" d="M 352 264 V 200.75"/>
+     <path class="P5" d="M 176 252 V 200.75"/>
+     <path class="P5" d="M 296 252 V 200.75"/>
+     <path class="P5" d="M 56 94 V 88"/>
+     <path class="P5" d="M 56 96.75 V 252"/>
+     <path class="P5" d="M 176 94 V 88"/>
+     <path class="P5" d="M 176 96.75 V 198"/>
+     <path class="P5" d="M 296 94 V 88"/>
+     <path class="P5" d="M 296 96.75 V 198"/>
+     <path class="P5" d="M 220 198 V 96.75"/>
+     <path class="P5" d="M 220 200.75 V 252"/>
+     <path class="P5" d="M 188 198 V 96.75"/>
+     <path class="P5" d="M 232 198 V 96.75"/>
+     <path class="P5" d="M 308 198 V 96.75"/>
+     <path class="P5" d="M 352 198 V 96.75"/>
+     <path class="P5" d="M 340 198 V 96.75"/>
+     <path class="P5" d="M 340 200.75 V 252"/>
+     <path class="P5" d="M 100 94 V 88"/>
+     <path class="P5" d="M 100 96.75 V 252"/>
+     <path class="P5" d="M 68 88 V 94"/>
+     <path class="P5" d="M 76 88 V 94"/>
+     <path class="P6" d="M 84 88 V 94"/>
+     <path class="P5" d="M 112 88 V 94"/>
+     <path class="P5" d="M 120 88 V 94"/>
+     <path class="P6" d="M 128 88 V 94"/>
+     <path class="P5" d="M 188 88 V 94"/>
+     <path class="P5" d="M 196 88 V 94"/>
+     <path class="P6" d="M 204 88 V 94"/>
+     <path class="P5" d="M 220 88 V 94"/>
+     <path class="P5" d="M 232 88 V 94"/>
+     <path class="P5" d="M 240 88 V 94"/>
+     <path class="P6" d="M 248 88 V 94"/>
+     <path class="P5" d="M 308 88 V 94"/>
+     <path class="P5" d="M 316 88 V 94"/>
+     <path class="P6" d="M 324 88 V 94"/>
+     <path class="P5" d="M 340 88 V 94"/>
+     <path class="P5" d="M 352 88 V 94"/>
+     <path class="P5" d="M 360 88 V 94"/>
+     <path class="P6" d="M 368 88 V 94"/>
+    </g>
+   </g>
+   <g>
+    <desc>group</desc>
+    <g>
+     <desc>group</desc>
+     <text class="F8" x="56" y="48" transform="translate(56 48) scale(1,-1) translate(-56 -48)">Not-Halt</text>
+     <text class="F8" x="56" y="44.25" transform="translate(56 44.25) scale(1,-1) translate(-56 -44.25)">&quot;Schaltschrank&quot;</text>
+     <text class="F8" x="176" y="48" transform="translate(176 48) scale(1,-1) translate(-176 -48)">Not-Halt &quot;Bedienpult&quot;</text>
+     <text class="F8" x="296" y="48" transform="translate(296 48) scale(1,-1) translate(-296 -48)">Not-Halt &quot;Bearbeiten&quot;</text>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 178 264 H 176"/>
+       <path class="P5" d="M 176 264 V 262"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 58 264 H 56"/>
+       <path class="P5" d="M 56 264 V 262"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 66 264 H 68"/>
+       <path class="P5" d="M 68 264 V 262"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 110 264 H 112"/>
+       <path class="P5" d="M 112 264 V 262"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 102 264 H 100"/>
+       <path class="P5" d="M 100 264 V 262"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 186 264 H 188"/>
+       <path class="P5" d="M 188 264 V 262"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 222 264 H 220"/>
+       <path class="P5" d="M 220 264 V 262"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 230 264 H 232"/>
+       <path class="P5" d="M 232 264 V 262"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 298 264 H 296"/>
+       <path class="P5" d="M 296 264 V 262"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 306 264 H 308"/>
+       <path class="P5" d="M 308 264 V 262"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 342 264 H 340"/>
+       <path class="P5" d="M 340 264 V 262"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <desc>group</desc>
+       <path class="P5" d="M 350 264 H 352"/>
+       <path class="P5" d="M 352 264 V 262"/>
+      </g>
+     </g>
+     <text class="F8" x="340" y="48" transform="translate(340 48) scale(1,-1) translate(-340 -48)">Not-Halt &quot;Bearbeiten&quot;</text>
+     <text class="F8" x="100" y="48" transform="translate(100 48) scale(1,-1) translate(-100 -48)">Not-Halt</text>
+     <text class="F8" x="100" y="44.25" transform="translate(100 44.25) scale(1,-1) translate(-100 -44.25)">&quot;Schaltschrank&quot;</text>
+     <text class="F8" x="220" y="48" transform="translate(220 48) scale(1,-1) translate(-220 -48)">Not-Halt &quot;Bedienpult&quot;</text>
+     <g id="Id17_27257">
+      <title>=A06+A3-SF1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,220,257,1,-1,&apos;Id17_27257&apos;,&apos;Id17_34124&apos;,0)">
+       <g>
+        <text class="F9" x="174.86" y="258.6" transform="translate(174.86 258.6) rotate(90) scale(1,-1) translate(-174.86 -258.6)">11</text>
+        <text class="F10" x="174.86" y="253.4" transform="translate(174.86 253.4) rotate(90) scale(1,-1) translate(-174.86 -253.4)">12</text>
+        <text class="F11" x="165" y="254.711376036431" transform="translate(165 254.711) scale(1,-1) translate(-165 -254.711)">-SF1</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 171.75 260 H 169.75"/>
+         <path class="P7" d="M 176 258 H 178"/>
+         <path class="P7" d="M 167.25 257.5 V 254.5"/>
+         <path class="P7" d="M 168.25 257 170.25 256"/>
+         <path class="P7" d="M 180 256 179.25 255.25"/>
+         <path class="P7" d="M 167.25 256 H 171.25"/>
+         <path class="P7" d="M 169.75 261 V 260"/>
+         <path class="P7" d="M 178.313 256 H 180"/>
+         <path class="P7" d="M 176 256 H 176.65"/>
+         <path class="P7" d="M 170.75 256.5 V 258"/>
+         <path class="P7" d="M 174 256 H 174.75"/>
+         <path class="P7" d="M 167.25 257.5 A 1.6127 1.6127 0 0 1 167.25 254.5"/>
+         <path class="P7" d="M 170.75 259 V 260"/>
+         <path class="P7" d="M 179.25 256.75 180 256"/>
+         <path class="P7" d="M 168.25 257 V 256"/>
+         <path class="P8" d="M 176 260 V 258"/>
+         <circle class="P7" cx="179.15625" cy="256" r="1.5"/>
+         <path class="P7" d="M 171.75 260 V 259"/>
+         <path class="P7" d="M 177.5 258.5 176 254"/>
+         <path class="P7" d="M 172.25 256 H 173"/>
+         <path class="P8" d="M 176.003 254.002 V 252.002"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_27260">
+      <title>=A06+B1-SF1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,340,257,1,-1,&apos;Id17_27260&apos;,&apos;Id17_34125&apos;,0)">
+       <g>
+        <text class="F9" x="294.86" y="258.6" transform="translate(294.86 258.6) rotate(90) scale(1,-1) translate(-294.86 -258.6)">11</text>
+        <text class="F10" x="294.86" y="253.4" transform="translate(294.86 253.4) rotate(90) scale(1,-1) translate(-294.86 -253.4)">12</text>
+        <text class="F11" x="285" y="254.711376036431" transform="translate(285 254.711) scale(1,-1) translate(-285 -254.711)">-SF1</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 291.75 260 H 289.75"/>
+         <path class="P7" d="M 296 258 H 298"/>
+         <path class="P7" d="M 287.25 257.5 V 254.5"/>
+         <path class="P7" d="M 288.25 257 290.25 256"/>
+         <path class="P7" d="M 300 256 299.25 255.25"/>
+         <path class="P7" d="M 287.25 256 H 291.25"/>
+         <path class="P7" d="M 289.75 261 V 260"/>
+         <path class="P7" d="M 298.313 256 H 300"/>
+         <path class="P7" d="M 296 256 H 296.65"/>
+         <path class="P7" d="M 290.75 256.5 V 258"/>
+         <path class="P7" d="M 294 256 H 294.75"/>
+         <path class="P7" d="M 287.25 257.5 A 1.6127 1.6127 0 0 1 287.25 254.5"/>
+         <path class="P7" d="M 290.75 259 V 260"/>
+         <path class="P7" d="M 299.25 256.75 300 256"/>
+         <path class="P7" d="M 288.25 257 V 256"/>
+         <path class="P8" d="M 296 260 V 258"/>
+         <circle class="P7" cx="299.15625" cy="256" r="1.5"/>
+         <path class="P7" d="M 291.75 260 V 259"/>
+         <path class="P7" d="M 297.5 258.5 296 254"/>
+         <path class="P7" d="M 292.25 256 H 293"/>
+         <path class="P8" d="M 296.003 254.002 V 252.002"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29521">
+      <title>+A2-XD9:1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,68,97,1,-1,&apos;Id17_29521&apos;,&apos;Id17_31592&apos;,0)">
+       <g>
+        <text class="F12" x="54.96" y="96" transform="translate(54.96 96) rotate(90) scale(1,-1) translate(-54.96 -96)">1</text>
+        <text class="F11" x="52.3" y="94.7129775" transform="translate(52.3 94.713) scale(1,-1) translate(-52.3 -94.713)">-XD9</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="56" cy="96" r="0.75"/>
+         <path class="P7" d="M 56 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29522">
+      <title>+A2-XD9:9</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,188,97,1,-1,&apos;Id17_29522&apos;,&apos;Id17_31594&apos;,0)">
+       <g>
+        <text class="F12" x="174.96" y="96" transform="translate(174.96 96) rotate(90) scale(1,-1) translate(-174.96 -96)">9</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="176" cy="96" r="0.75"/>
+         <path class="P7" d="M 176 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29523">
+      <title>+A2-XD9:17</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,308,97,1,-1,&apos;Id17_29523&apos;,&apos;Id17_31596&apos;,0)">
+       <g>
+        <text class="F12" x="294.96" y="96" transform="translate(294.96 96) rotate(90) scale(1,-1) translate(-294.96 -96)">17</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="296" cy="96" r="0.75"/>
+         <path class="P7" d="M 296 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29718">
+      <title>+A2-XD11:1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,188,201,1,-1,&apos;Id17_29718&apos;,&apos;Id17_29721&apos;,0)">
+       <g>
+        <text class="F12" x="174.96" y="200" transform="translate(174.96 200) rotate(90) scale(1,-1) translate(-174.96 -200)">1</text>
+        <text class="F11" x="172.3" y="198.7129775" transform="translate(172.3 198.713) scale(1,-1) translate(-172.3 -198.713)">-XD11</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="176" cy="200" r="0.75"/>
+         <path class="P7" d="M 176 199.25 V 198"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29719">
+      <title>+A2-XD11:3</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,232,201,1,-1,&apos;Id17_29719&apos;,&apos;Id17_29722&apos;,0)">
+       <g>
+        <text class="F12" x="218.96" y="200" transform="translate(218.96 200) rotate(90) scale(1,-1) translate(-218.96 -200)">3</text>
+        <text class="F11" x="216.3" y="198.7129775" transform="translate(216.3 198.713) scale(1,-1) translate(-216.3 -198.713)">-XD11</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="220" cy="200" r="0.75"/>
+         <path class="P7" d="M 220 199.25 V 198"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29721">
+      <title>+A2-XD11:2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,220,201,1,-1,&apos;Id17_29721&apos;,&apos;Id17_29719&apos;,1)">
+       <g>
+        <text class="F12" x="186.96" y="200" transform="translate(186.96 200) rotate(90) scale(1,-1) translate(-186.96 -200)">2</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="188" cy="200" r="0.75"/>
+         <path class="P7" d="M 188 199.25 V 198"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29722">
+      <title>+A2-XD11:4</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,296,201,1,-1,&apos;Id17_29722&apos;,&apos;Id17_29727&apos;,1)">
+       <g>
+        <text class="F12" x="230.96" y="200" transform="translate(230.96 200) rotate(90) scale(1,-1) translate(-230.96 -200)">4</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="232" cy="200" r="0.75"/>
+         <path class="P7" d="M 232 199.25 V 198"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29724">
+      <title>+A2-XD11:6</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,340,201,1,-1,&apos;Id17_29724&apos;,&apos;Id17_29728&apos;,1)">
+       <g>
+        <text class="F12" x="306.96" y="200" transform="translate(306.96 200) rotate(90) scale(1,-1) translate(-306.96 -200)">6</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="308" cy="200" r="0.75"/>
+         <path class="P7" d="M 308 199.25 V 198"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29725">
+      <title>+A2-XD11:8</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_216.svg&apos;,56,201,1,-1,&apos;Id17_29725&apos;,&apos;Id17_32665&apos;,1)">
+       <g>
+        <text class="F12" x="350.96" y="200" transform="translate(350.96 200) rotate(90) scale(1,-1) translate(-350.96 -200)">8</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="352" cy="200" r="0.75"/>
+         <path class="P7" d="M 352 199.25 V 198"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29727">
+      <title>+A2-XD11:5</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,308,201,1,-1,&apos;Id17_29727&apos;,&apos;Id17_29724&apos;,0)">
+       <g>
+        <text class="F12" x="294.96" y="200" transform="translate(294.96 200) rotate(90) scale(1,-1) translate(-294.96 -200)">5</text>
+        <text class="F11" x="292.3" y="198.7129775" transform="translate(292.3 198.713) scale(1,-1) translate(-292.3 -198.713)">-XD11</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="296" cy="200" r="0.75"/>
+         <path class="P7" d="M 296 199.25 V 198"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29728">
+      <title>+A2-XD11:7</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,352,201,1,-1,&apos;Id17_29728&apos;,&apos;Id17_29725&apos;,0)">
+       <g>
+        <text class="F12" x="338.96" y="200" transform="translate(338.96 200) rotate(90) scale(1,-1) translate(-338.96 -200)">7</text>
+        <text class="F11" x="336.3" y="198.7129775" transform="translate(336.3 198.713) scale(1,-1) translate(-336.3 -198.713)">-XD11</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="340" cy="200" r="0.75"/>
+         <path class="P7" d="M 340 199.25 V 198"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_29850">
+      <title>+B1-WD5</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,336,217,1,-1,&apos;Id17_29850&apos;,&apos;Id17_31565&apos;,1)">
+       <g>
+        <text class="F13" x="292" y="216.75" transform="translate(292 216.75) scale(1,-1) translate(-292 -216.75)">-WD5</text>
+        <text class="F14" x="292" y="213.84" transform="translate(292 213.84) scale(1,-1) translate(-292 -213.84)">4X0,75</text>
+        <path class="P7" d="M 292 216 H 308"/>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31206">
+      <title>+A2-XD9:5</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,112,97,1,-1,&apos;Id17_31206&apos;,&apos;Id17_31593&apos;,0)">
+       <g>
+        <text class="F12" x="98.96" y="96" transform="translate(98.96 96) rotate(90) scale(1,-1) translate(-98.96 -96)">5</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="100" cy="96" r="0.75"/>
+         <path class="P7" d="M 100 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31435">
+      <title>+A3-WD2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,216,217,1,-1,&apos;Id17_31435&apos;,&apos;Id17_31439&apos;,1)">
+       <g>
+        <text class="F13" x="172" y="216.75" transform="translate(172 216.75) scale(1,-1) translate(-172 -216.75)">-WD2</text>
+        <text class="F14" x="172" y="213.84" transform="translate(172 213.84) scale(1,-1) translate(-172 -213.84)">4X0,75</text>
+        <path class="P7" d="M 172 216 H 192"/>
+       </g>
+      </a>
+     </g>
+     <g id="Id59_31436">
+      <title>+A3-WD2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;&apos;,0,0,0,0,&apos;Id59_31436&apos;,0,0)">
+       <g>
+        <text class="F15" x="177.5" y="216.5" transform="translate(177.5 216.5) scale(1,-1) translate(-177.5 -216.5)">BU</text>
+        <g>
+         <desc>group</desc>
+         <path class="P9" d="M 175 217 177 215"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31439">
+      <title>+A3-WD2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,172,217,1,-1,&apos;Id17_31439&apos;,&apos;Id17_31435&apos;,1)">
+       <g>
+        <text class="F13" x="216" y="216.75" transform="translate(216 216.75) scale(1,-1) translate(-216 -216.75)">-WD2</text>
+        <text class="F14" x="216" y="213.84" transform="translate(216 213.84) scale(1,-1) translate(-216 -213.84)">4X0,75</text>
+        <path class="P7" d="M 216 216 H 236"/>
+       </g>
+      </a>
+     </g>
+     <g id="Id59_31440">
+      <title>+A3-WD2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;&apos;,0,0,0,0,&apos;Id59_31440&apos;,0,0)">
+       <g>
+        <text class="F15" x="221.5" y="216.5" transform="translate(221.5 216.5) scale(1,-1) translate(-221.5 -216.5)">BK</text>
+        <g>
+         <desc>group</desc>
+         <path class="P9" d="M 219 217 221 215"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31444">
+      <title>=A07+A2-KF7:1.1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,68,85,1,-1,&apos;Id17_31444&apos;,&apos;Id17_31445&apos;,0)">
+       <g>
+        <text class="F9" x="54.46" y="88" transform="translate(54.46 88) rotate(90) scale(1,-1) translate(-54.46 -88)">1.1</text>
+        <text class="F16" x="68" y="73.6066876" transform="translate(68 73.6067) scale(1,-1) translate(-68 -73.6067)">=A07&amp;EFA1/ 6.5</text>
+        <text class="F16" x="68" y="77.6066876" transform="translate(68 77.6067) scale(1,-1) translate(-68 -77.6067)">=A07-KF7</text>
+        <text class="F16" x="68" y="61.6066876" transform="translate(68 61.6067) scale(1,-1) translate(-68 -61.6067)">Not-Halt &quot;Schaltschrank&quot;</text>
+        <text class="F16" x="68" y="69.6066876" transform="translate(68 69.6067) scale(1,-1) translate(-68 -69.6067)">%IX8.0</text>
+        <text class="F16" x="68" y="65.6066876" transform="translate(68 65.6067) scale(1,-1) translate(-68 -65.6067)">-SF1:12</text>
+        <text class="F10" x="54" y="84.74" transform="translate(54 84.74) scale(1,-1) translate(-54 -84.74)">1</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 48 64 H 88 V 68 H 48 Z"/>
+         <path class="P10" d="M 55.25 84 H 56.75 V 86 H 55.25 Z"/>
+         <path class="P7" d="M 48 80 H 88 V 84 H 48 Z"/>
+         <path class="P7" d="M 48 76 H 88 V 80 H 48 Z"/>
+         <path class="P5" d="M 56 88 V 87.5"/>
+         <path class="P7" d="M 57.5 86 A 1.5 1.5 0 0 1 54.5 86"/>
+         <path class="P7" d="M 48 68 H 88 V 72 H 48 Z"/>
+         <path class="P7" d="M 48 56 H 88 V 64 H 48 Z"/>
+         <path class="P7" d="M 48 72 H 88 V 76 H 48 Z"/>
+         <path class="P11" d="M 46 84 H 48 V 56 H 88 V 84 H 90 V 54 H 46 V 84 Z"/>
+         <path class="P7" d="M 46 84 H 48 V 56 H 88 V 84 H 90 V 54 H 46 V 84 Z"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31445">
+      <title>=A07+A2-KF7:1.2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,76,85,1,-1,&apos;Id17_31445&apos;,&apos;Id17_31446&apos;,0)">
+       <g>
+        <text class="F9" x="66.46" y="88" transform="translate(66.46 88) rotate(90) scale(1,-1) translate(-66.46 -88)">1.2</text>
+        <text class="F16" x="68" y="81.4066876" transform="translate(68 81.4067) scale(1,-1) translate(-68 -81.4067)">UT1</text>
+        <text class="F10" x="66" y="84.74" transform="translate(66 84.74) scale(1,-1) translate(-66 -84.74)">1</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 69.5 86 A 1.5 1.5 0 0 1 66.5 86"/>
+         <path class="P10" d="M 67.25 84 H 68.75 V 86 H 67.25 Z"/>
+         <path class="P5" d="M 68 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31446">
+      <title>=A07+A2-KF7:1.3</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,84,85,1,-1,&apos;Id17_31446&apos;,&apos;Id17_31448&apos;,0)">
+       <g>
+        <text class="F9" x="74.46" y="88" transform="translate(74.46 88) rotate(90) scale(1,-1) translate(-74.46 -88)">1.3</text>
+        <text class="F16" x="76" y="81.4066876" transform="translate(76 81.4067) scale(1,-1) translate(-76 -81.4067)">GND</text>
+        <text class="F10" x="74" y="84.74" transform="translate(74 84.74) scale(1,-1) translate(-74 -84.74)">1</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 77.5 86 A 1.5 1.5 0 0 1 74.5 86"/>
+         <path class="P10" d="M 75.25 84 H 76.75 V 86 H 75.25 Z"/>
+         <path class="P5" d="M 76 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31448">
+      <title>=A07+A2-KF7:1.4</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,100,85,1,-1,&apos;Id17_31448&apos;,&apos;Id17_31449&apos;,0)">
+       <g>
+        <text class="F9" x="82.46" y="88" transform="translate(82.46 88) rotate(90) scale(1,-1) translate(-82.46 -88)">1.4</text>
+        <text class="F16" x="84" y="81.4066876" transform="translate(84 81.4067) scale(1,-1) translate(-84 -81.4067)">FE</text>
+        <text class="F10" x="82" y="84.74" transform="translate(82 84.74) scale(1,-1) translate(-82 -84.74)">1</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 85.5 86 A 1.5 1.5 0 0 1 82.5 86"/>
+         <path class="P10" d="M 83.25 84 H 84.75 V 86 H 83.25 Z"/>
+         <path class="P5" d="M 84 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31449">
+      <title>=A07+A2-KF7:2.1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,112,85,1,-1,&apos;Id17_31449&apos;,&apos;Id17_31450&apos;,0)">
+       <g>
+        <text class="F9" x="98.46" y="88" transform="translate(98.46 88) rotate(90) scale(1,-1) translate(-98.46 -88)">2.1</text>
+        <text class="F16" x="100" y="81.4066876" transform="translate(100 81.4067) scale(1,-1) translate(-100 -81.4067)">IN0_Ch2</text>
+        <text class="F16" x="112" y="73.6066876" transform="translate(112 73.6067) scale(1,-1) translate(-112 -73.6067)">=A07&amp;EFA1/ 6.5</text>
+        <text class="F16" x="112" y="61.6066876" transform="translate(112 61.6067) scale(1,-1) translate(-112 -61.6067)">Not-Halt &quot;Schaltschrank&quot;</text>
+        <text class="F16" x="112" y="69.6066876" transform="translate(112 69.6067) scale(1,-1) translate(-112 -69.6067)">%IX8.1</text>
+        <text class="F16" x="112" y="65.6066876" transform="translate(112 65.6067) scale(1,-1) translate(-112 -65.6067)">-SF1:24</text>
+        <text class="F10" x="98" y="84.74" transform="translate(98 84.74) scale(1,-1) translate(-98 -84.74)">1</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 92 64 H 132 V 68 H 92 Z"/>
+         <path class="P10" d="M 99.25 84 H 100.75 V 86 H 99.25 Z"/>
+         <path class="P7" d="M 92 80 H 132 V 84 H 92 Z"/>
+         <path class="P7" d="M 92 76 H 132 V 80 H 92 Z"/>
+         <path class="P5" d="M 100 88 V 87.5"/>
+         <path class="P7" d="M 101.5 86 A 1.5 1.5 0 0 1 98.5 86"/>
+         <path class="P7" d="M 92 68 H 132 V 72 H 92 Z"/>
+         <path class="P7" d="M 92 56 H 132 V 64 H 92 Z"/>
+         <path class="P7" d="M 92 72 H 132 V 76 H 92 Z"/>
+         <path class="P11" d="M 90 84 H 92 V 56 H 132 V 84 H 134 V 54 H 90 V 84 Z"/>
+         <path class="P7" d="M 90 84 H 92 V 56 H 132 V 84 H 134 V 54 H 90 V 84 Z"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31450">
+      <title>=A07+A2-KF7:2.2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,120,85,1,-1,&apos;Id17_31450&apos;,&apos;Id17_31451&apos;,0)">
+       <g>
+        <text class="F9" x="110.46" y="88" transform="translate(110.46 88) rotate(90) scale(1,-1) translate(-110.46 -88)">2.2</text>
+        <text class="F16" x="112" y="81.4066876" transform="translate(112 81.4067) scale(1,-1) translate(-112 -81.4067)">UT2</text>
+        <text class="F10" x="110" y="84.74" transform="translate(110 84.74) scale(1,-1) translate(-110 -84.74)">1</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 113.5 86 A 1.5 1.5 0 0 1 110.5 86"/>
+         <path class="P10" d="M 111.25 84 H 112.75 V 86 H 111.25 Z"/>
+         <path class="P5" d="M 112 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31451">
+      <title>=A07+A2-KF7:2.3</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,128,85,1,-1,&apos;Id17_31451&apos;,&apos;Id17_31452&apos;,0)">
+       <g>
+        <text class="F9" x="118.46" y="88" transform="translate(118.46 88) rotate(90) scale(1,-1) translate(-118.46 -88)">2.3</text>
+        <text class="F16" x="120" y="81.4066876" transform="translate(120 81.4067) scale(1,-1) translate(-120 -81.4067)">GND</text>
+        <text class="F10" x="118" y="84.74" transform="translate(118 84.74) scale(1,-1) translate(-118 -84.74)">1</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 121.5 86 A 1.5 1.5 0 0 1 118.5 86"/>
+         <path class="P10" d="M 119.25 84 H 120.75 V 86 H 119.25 Z"/>
+         <path class="P5" d="M 120 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31452">
+      <title>=A07+A2-KF7:2.4</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,176,85,1,-1,&apos;Id17_31452&apos;,&apos;Id17_31465&apos;,0)">
+       <g>
+        <text class="F9" x="126.46" y="88" transform="translate(126.46 88) rotate(90) scale(1,-1) translate(-126.46 -88)">2.4</text>
+        <text class="F16" x="128" y="81.4066876" transform="translate(128 81.4067) scale(1,-1) translate(-128 -81.4067)">FE</text>
+        <text class="F10" x="126" y="84.74" transform="translate(126 84.74) scale(1,-1) translate(-126 -84.74)">1</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 129.5 86 A 1.5 1.5 0 0 1 126.5 86"/>
+         <path class="P10" d="M 127.25 84 H 128.75 V 86 H 127.25 Z"/>
+         <path class="P5" d="M 128 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31463">
+      <title>=A06+A2-SF1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,100,257,1,-1,&apos;Id17_31463&apos;,&apos;Id17_31464&apos;,0)">
+       <g>
+        <text class="F9" x="54.86" y="258.6" transform="translate(54.86 258.6) rotate(90) scale(1,-1) translate(-54.86 -258.6)">11</text>
+        <text class="F10" x="54.86" y="253.4" transform="translate(54.86 253.4) rotate(90) scale(1,-1) translate(-54.86 -253.4)">12</text>
+        <text class="F11" x="45" y="254.711376036431" transform="translate(45 254.711) scale(1,-1) translate(-45 -254.711)">-SF1</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 51.75 260 H 49.75"/>
+         <path class="P7" d="M 56 258 H 58"/>
+         <path class="P7" d="M 47.25 257.5 V 254.5"/>
+         <path class="P7" d="M 48.25 257 50.25 256"/>
+         <path class="P7" d="M 60 256 59.25 255.25"/>
+         <path class="P7" d="M 47.25 256 H 51.25"/>
+         <path class="P7" d="M 49.75 261 V 260"/>
+         <path class="P7" d="M 58.3125 256 H 60"/>
+         <path class="P7" d="M 56 256 H 56.65"/>
+         <path class="P7" d="M 50.75 256.5 V 258"/>
+         <path class="P7" d="M 54 256 H 54.75"/>
+         <path class="P7" d="M 47.25 257.5 A 1.6127 1.6127 0 0 1 47.25 254.5"/>
+         <path class="P7" d="M 50.75 259 V 260"/>
+         <path class="P7" d="M 59.25 256.75 60 256"/>
+         <path class="P7" d="M 48.25 257 V 256"/>
+         <path class="P8" d="M 56 260 V 258"/>
+         <circle class="P7" cx="59.15625" cy="256" r="1.5"/>
+         <path class="P7" d="M 51.75 260 V 259"/>
+         <path class="P7" d="M 57.5 258.5 56 254"/>
+         <path class="P7" d="M 52.25 256 H 53"/>
+         <path class="P8" d="M 56.0034 254.002 V 252.002"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31464">
+      <title>=A06+A2-SF1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,56,257,1,-1,&apos;Id17_31464&apos;,&apos;Id17_31463&apos;,1)">
+       <g>
+        <text class="F9" x="98.86" y="258.6" transform="translate(98.86 258.6) rotate(90) scale(1,-1) translate(-98.86 -258.6)">23</text>
+        <text class="F10" x="98.86" y="253.4" transform="translate(98.86 253.4) rotate(90) scale(1,-1) translate(-98.86 -253.4)">24</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 100.003 254.002 97.5034 258.502"/>
+         <path class="P8" d="M 100.003 254.002 V 252.002"/>
+         <path class="P8" d="M 100 260 V 258"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31465">
+      <title>=A07+A2-KF7:3.1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,188,85,1,-1,&apos;Id17_31465&apos;,&apos;Id17_31466&apos;,0)">
+       <g>
+        <text class="F9" x="174.46" y="88" transform="translate(174.46 88) rotate(90) scale(1,-1) translate(-174.46 -88)">3.1</text>
+        <text class="F16" x="176" y="81.4066876" transform="translate(176 81.4067) scale(1,-1) translate(-176 -81.4067)">IN1_Ch1</text>
+        <text class="F16" x="188" y="73.6066876" transform="translate(188 73.6067) scale(1,-1) translate(-188 -73.6067)">=A07&amp;EFA1/ 6.5</text>
+        <text class="F16" x="188" y="61.6066876" transform="translate(188 61.6067) scale(1,-1) translate(-188 -61.6067)">Not-Halt &quot;Bedienpult&quot;</text>
+        <text class="F16" x="188" y="69.6066876" transform="translate(188 69.6067) scale(1,-1) translate(-188 -69.6067)">%IX8.2</text>
+        <text class="F16" x="188" y="65.6066876" transform="translate(188 65.6067) scale(1,-1) translate(-188 -65.6067)">+A3-SF1:12</text>
+        <text class="F10" x="174" y="84.74" transform="translate(174 84.74) scale(1,-1) translate(-174 -84.74)">2</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 168 64 H 208 V 68 H 168 Z"/>
+         <path class="P10" d="M 175.25 84 H 176.75 V 86 H 175.25 Z"/>
+         <path class="P7" d="M 168 80 H 208 V 84 H 168 Z"/>
+         <path class="P7" d="M 168 76 H 208 V 80 H 168 Z"/>
+         <path class="P5" d="M 176 88 V 87.5"/>
+         <path class="P7" d="M 177.5 86 A 1.5 1.5 0 0 1 174.5 86"/>
+         <path class="P7" d="M 168 68 H 208 V 72 H 168 Z"/>
+         <path class="P7" d="M 168 56 H 208 V 64 H 168 Z"/>
+         <path class="P7" d="M 168 72 H 208 V 76 H 168 Z"/>
+         <path class="P11" d="M 166 84 H 168 V 56 H 208 V 84 H 210 V 54 H 166 V 84 Z"/>
+         <path class="P7" d="M 166 84 H 168 V 56 H 208 V 84 H 210 V 54 H 166 V 84 Z"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31466">
+      <title>=A07+A2-KF7:3.2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,196,85,1,-1,&apos;Id17_31466&apos;,&apos;Id17_31467&apos;,0)">
+       <g>
+        <text class="F9" x="186.46" y="88" transform="translate(186.46 88) rotate(90) scale(1,-1) translate(-186.46 -88)">3.2</text>
+        <text class="F16" x="188" y="81.4066876" transform="translate(188 81.4067) scale(1,-1) translate(-188 -81.4067)">UT1</text>
+        <text class="F10" x="186" y="84.74" transform="translate(186 84.74) scale(1,-1) translate(-186 -84.74)">2</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 189.5 86 A 1.5 1.5 0 0 1 186.5 86"/>
+         <path class="P10" d="M 187.25 84 H 188.75 V 86 H 187.25 Z"/>
+         <path class="P5" d="M 188 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31467">
+      <title>=A07+A2-KF7:3.3</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,204,85,1,-1,&apos;Id17_31467&apos;,&apos;Id17_31468&apos;,0)">
+       <g>
+        <text class="F9" x="194.46" y="88" transform="translate(194.46 88) rotate(90) scale(1,-1) translate(-194.46 -88)">3.3</text>
+        <text class="F16" x="196" y="81.4066876" transform="translate(196 81.4067) scale(1,-1) translate(-196 -81.4067)">GND</text>
+        <text class="F10" x="194" y="84.74" transform="translate(194 84.74) scale(1,-1) translate(-194 -84.74)">2</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 197.5 86 A 1.5 1.5 0 0 1 194.5 86"/>
+         <path class="P10" d="M 195.25 84 H 196.75 V 86 H 195.25 Z"/>
+         <path class="P5" d="M 196 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31468">
+      <title>=A07+A2-KF7:3.4</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,220,85,1,-1,&apos;Id17_31468&apos;,&apos;Id17_31469&apos;,0)">
+       <g>
+        <text class="F9" x="202.46" y="88" transform="translate(202.46 88) rotate(90) scale(1,-1) translate(-202.46 -88)">3.4</text>
+        <text class="F16" x="204" y="81.4066876" transform="translate(204 81.4067) scale(1,-1) translate(-204 -81.4067)">FE</text>
+        <text class="F10" x="202" y="84.74" transform="translate(202 84.74) scale(1,-1) translate(-202 -84.74)">2</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 205.5 86 A 1.5 1.5 0 0 1 202.5 86"/>
+         <path class="P10" d="M 203.25 84 H 204.75 V 86 H 203.25 Z"/>
+         <path class="P5" d="M 204 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31469">
+      <title>=A07+A2-KF7:4.1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,232,85,1,-1,&apos;Id17_31469&apos;,&apos;Id17_31470&apos;,0)">
+       <g>
+        <text class="F9" x="218.46" y="88" transform="translate(218.46 88) rotate(90) scale(1,-1) translate(-218.46 -88)">4.1</text>
+        <text class="F16" x="220" y="81.4066876" transform="translate(220 81.4067) scale(1,-1) translate(-220 -81.4067)">IN1_Ch2</text>
+        <text class="F16" x="232" y="73.6066876" transform="translate(232 73.6067) scale(1,-1) translate(-232 -73.6067)">=A07&amp;EFA1/ 6.5</text>
+        <text class="F16" x="232" y="61.6066876" transform="translate(232 61.6067) scale(1,-1) translate(-232 -61.6067)">Not-Halt &quot;Bedienpult&quot;</text>
+        <text class="F16" x="232" y="69.6066876" transform="translate(232 69.6067) scale(1,-1) translate(-232 -69.6067)">%IX8.3</text>
+        <text class="F16" x="232" y="65.6066876" transform="translate(232 65.6067) scale(1,-1) translate(-232 -65.6067)">+A3-SF1:24</text>
+        <text class="F10" x="218" y="84.74" transform="translate(218 84.74) scale(1,-1) translate(-218 -84.74)">2</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 212 64 H 252 V 68 H 212 Z"/>
+         <path class="P10" d="M 219.25 84 H 220.75 V 86 H 219.25 Z"/>
+         <path class="P7" d="M 212 80 H 252 V 84 H 212 Z"/>
+         <path class="P7" d="M 212 76 H 252 V 80 H 212 Z"/>
+         <path class="P5" d="M 220 88 V 87.5"/>
+         <path class="P7" d="M 221.5 86 A 1.5 1.5 0 0 1 218.5 86"/>
+         <path class="P7" d="M 212 68 H 252 V 72 H 212 Z"/>
+         <path class="P7" d="M 212 56 H 252 V 64 H 212 Z"/>
+         <path class="P7" d="M 212 72 H 252 V 76 H 212 Z"/>
+         <path class="P11" d="M 210 84 H 212 V 56 H 252 V 84 H 254 V 54 H 210 V 84 Z"/>
+         <path class="P7" d="M 210 84 H 212 V 56 H 252 V 84 H 254 V 54 H 210 V 84 Z"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31470">
+      <title>=A07+A2-KF7:4.2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,240,85,1,-1,&apos;Id17_31470&apos;,&apos;Id17_31471&apos;,0)">
+       <g>
+        <text class="F9" x="230.46" y="88" transform="translate(230.46 88) rotate(90) scale(1,-1) translate(-230.46 -88)">4.2</text>
+        <text class="F16" x="232" y="81.4066876" transform="translate(232 81.4067) scale(1,-1) translate(-232 -81.4067)">UT2</text>
+        <text class="F10" x="230" y="84.74" transform="translate(230 84.74) scale(1,-1) translate(-230 -84.74)">2</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 233.5 86 A 1.5 1.5 0 0 1 230.5 86"/>
+         <path class="P10" d="M 231.25 84 H 232.75 V 86 H 231.25 Z"/>
+         <path class="P5" d="M 232 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31471">
+      <title>=A07+A2-KF7:4.3</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,248,85,1,-1,&apos;Id17_31471&apos;,&apos;Id17_31472&apos;,0)">
+       <g>
+        <text class="F9" x="238.46" y="88" transform="translate(238.46 88) rotate(90) scale(1,-1) translate(-238.46 -88)">4.3</text>
+        <text class="F16" x="240" y="81.4066876" transform="translate(240 81.4067) scale(1,-1) translate(-240 -81.4067)">GND</text>
+        <text class="F10" x="238" y="84.74" transform="translate(238 84.74) scale(1,-1) translate(-238 -84.74)">2</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 241.5 86 A 1.5 1.5 0 0 1 238.5 86"/>
+         <path class="P10" d="M 239.25 84 H 240.75 V 86 H 239.25 Z"/>
+         <path class="P5" d="M 240 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31472">
+      <title>=A07+A2-KF7:4.4</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,296,85,1,-1,&apos;Id17_31472&apos;,&apos;Id17_31474&apos;,0)">
+       <g>
+        <text class="F9" x="246.46" y="88" transform="translate(246.46 88) rotate(90) scale(1,-1) translate(-246.46 -88)">4.4</text>
+        <text class="F16" x="248" y="81.4066876" transform="translate(248 81.4067) scale(1,-1) translate(-248 -81.4067)">FE</text>
+        <text class="F10" x="246" y="84.74" transform="translate(246 84.74) scale(1,-1) translate(-246 -84.74)">2</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 249.5 86 A 1.5 1.5 0 0 1 246.5 86"/>
+         <path class="P10" d="M 247.25 84 H 248.75 V 86 H 247.25 Z"/>
+         <path class="P5" d="M 248 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31473">
+      <title>+A2-XD9:13</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,232,97,1,-1,&apos;Id17_31473&apos;,&apos;Id17_31595&apos;,0)">
+       <g>
+        <text class="F12" x="218.96" y="96" transform="translate(218.96 96) rotate(90) scale(1,-1) translate(-218.96 -96)">13</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="220" cy="96" r="0.75"/>
+         <path class="P7" d="M 220 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31474">
+      <title>=A07+A2-KF7:5.1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,308,85,1,-1,&apos;Id17_31474&apos;,&apos;Id17_31475&apos;,0)">
+       <g>
+        <text class="F9" x="294.46" y="88" transform="translate(294.46 88) rotate(90) scale(1,-1) translate(-294.46 -88)">5.1</text>
+        <text class="F16" x="296" y="81.4066876" transform="translate(296 81.4067) scale(1,-1) translate(-296 -81.4067)">IN2_Ch1</text>
+        <text class="F16" x="308" y="73.6066876" transform="translate(308 73.6067) scale(1,-1) translate(-308 -73.6067)">=A07&amp;EFA1/ 6.5</text>
+        <text class="F16" x="308" y="61.6066876" transform="translate(308 61.6067) scale(1,-1) translate(-308 -61.6067)">Not-Halt &quot;Bearbeiten&quot;</text>
+        <text class="F16" x="308" y="69.6066876" transform="translate(308 69.6067) scale(1,-1) translate(-308 -69.6067)">%IX8.4</text>
+        <text class="F16" x="308" y="65.6066876" transform="translate(308 65.6067) scale(1,-1) translate(-308 -65.6067)">+B1-SF1:12</text>
+        <text class="F10" x="294" y="84.74" transform="translate(294 84.74) scale(1,-1) translate(-294 -84.74)">3</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 288 64 H 328 V 68 H 288 Z"/>
+         <path class="P10" d="M 295.25 84 H 296.75 V 86 H 295.25 Z"/>
+         <path class="P7" d="M 288 80 H 328 V 84 H 288 Z"/>
+         <path class="P7" d="M 288 76 H 328 V 80 H 288 Z"/>
+         <path class="P5" d="M 296 88 V 87.5"/>
+         <path class="P7" d="M 297.5 86 A 1.5 1.5 0 0 1 294.5 86"/>
+         <path class="P7" d="M 288 68 H 328 V 72 H 288 Z"/>
+         <path class="P7" d="M 288 56 H 328 V 64 H 288 Z"/>
+         <path class="P7" d="M 288 72 H 328 V 76 H 288 Z"/>
+         <path class="P11" d="M 286 84 H 288 V 56 H 328 V 84 H 330 V 54 H 286 V 84 Z"/>
+         <path class="P7" d="M 286 84 H 288 V 56 H 328 V 84 H 330 V 54 H 286 V 84 Z"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31475">
+      <title>=A07+A2-KF7:5.2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,316,85,1,-1,&apos;Id17_31475&apos;,&apos;Id17_31476&apos;,0)">
+       <g>
+        <text class="F9" x="306.46" y="88" transform="translate(306.46 88) rotate(90) scale(1,-1) translate(-306.46 -88)">5.2</text>
+        <text class="F16" x="308" y="81.4066876" transform="translate(308 81.4067) scale(1,-1) translate(-308 -81.4067)">UT1</text>
+        <text class="F10" x="306" y="84.74" transform="translate(306 84.74) scale(1,-1) translate(-306 -84.74)">3</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 309.5 86 A 1.5 1.5 0 0 1 306.5 86"/>
+         <path class="P10" d="M 307.25 84 H 308.75 V 86 H 307.25 Z"/>
+         <path class="P5" d="M 308 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31476">
+      <title>=A07+A2-KF7:5.3</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,324,85,1,-1,&apos;Id17_31476&apos;,&apos;Id17_31477&apos;,0)">
+       <g>
+        <text class="F9" x="314.46" y="88" transform="translate(314.46 88) rotate(90) scale(1,-1) translate(-314.46 -88)">5.3</text>
+        <text class="F16" x="316" y="81.4066876" transform="translate(316 81.4067) scale(1,-1) translate(-316 -81.4067)">GND</text>
+        <text class="F10" x="314" y="84.74" transform="translate(314 84.74) scale(1,-1) translate(-314 -84.74)">3</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 317.5 86 A 1.5 1.5 0 0 1 314.5 86"/>
+         <path class="P10" d="M 315.25 84 H 316.75 V 86 H 315.25 Z"/>
+         <path class="P5" d="M 316 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31477">
+      <title>=A07+A2-KF7:5.4</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,340,85,1,-1,&apos;Id17_31477&apos;,&apos;Id17_31479&apos;,0)">
+       <g>
+        <text class="F9" x="322.46" y="88" transform="translate(322.46 88) rotate(90) scale(1,-1) translate(-322.46 -88)">5.4</text>
+        <text class="F16" x="324" y="81.4066876" transform="translate(324 81.4067) scale(1,-1) translate(-324 -81.4067)">FE</text>
+        <text class="F10" x="322" y="84.74" transform="translate(322 84.74) scale(1,-1) translate(-322 -84.74)">3</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 325.5 86 A 1.5 1.5 0 0 1 322.5 86"/>
+         <path class="P10" d="M 323.25 84 H 324.75 V 86 H 323.25 Z"/>
+         <path class="P5" d="M 324 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31479">
+      <title>=A07+A2-KF7:6.1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,352,85,1,-1,&apos;Id17_31479&apos;,&apos;Id17_31480&apos;,0)">
+       <g>
+        <text class="F9" x="338.46" y="88" transform="translate(338.46 88) rotate(90) scale(1,-1) translate(-338.46 -88)">6.1</text>
+        <text class="F16" x="340" y="81.4066876" transform="translate(340 81.4067) scale(1,-1) translate(-340 -81.4067)">IN2_Ch2</text>
+        <text class="F16" x="352" y="73.6066876" transform="translate(352 73.6067) scale(1,-1) translate(-352 -73.6067)">=A07&amp;EFA1/ 6.5</text>
+        <text class="F16" x="352" y="61.6066876" transform="translate(352 61.6067) scale(1,-1) translate(-352 -61.6067)">Not-Halt &quot;Bearbeiten&quot;</text>
+        <text class="F16" x="352" y="69.6066876" transform="translate(352 69.6067) scale(1,-1) translate(-352 -69.6067)">%IX8.5</text>
+        <text class="F16" x="352" y="65.6066876" transform="translate(352 65.6067) scale(1,-1) translate(-352 -65.6067)">+B1-SF1:24</text>
+        <text class="F10" x="338" y="84.74" transform="translate(338 84.74) scale(1,-1) translate(-338 -84.74)">3</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 332 64 H 372 V 68 H 332 Z"/>
+         <path class="P10" d="M 339.25 84 H 340.75 V 86 H 339.25 Z"/>
+         <path class="P7" d="M 332 80 H 372 V 84 H 332 Z"/>
+         <path class="P7" d="M 332 76 H 372 V 80 H 332 Z"/>
+         <path class="P5" d="M 340 88 V 87.5"/>
+         <path class="P7" d="M 341.5 86 A 1.5 1.5 0 0 1 338.5 86"/>
+         <path class="P7" d="M 332 68 H 372 V 72 H 332 Z"/>
+         <path class="P7" d="M 332 56 H 372 V 64 H 332 Z"/>
+         <path class="P7" d="M 332 72 H 372 V 76 H 332 Z"/>
+         <path class="P11" d="M 330 84 H 332 V 56 H 372 V 84 H 374 V 54 H 330 V 84 Z"/>
+         <path class="P7" d="M 330 84 H 332 V 56 H 372 V 84 H 374 V 54 H 330 V 84 Z"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31480">
+      <title>=A07+A2-KF7:6.2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,360,85,1,-1,&apos;Id17_31480&apos;,&apos;Id17_31481&apos;,0)">
+       <g>
+        <text class="F9" x="350.46" y="88" transform="translate(350.46 88) rotate(90) scale(1,-1) translate(-350.46 -88)">6.2</text>
+        <text class="F16" x="352" y="81.4066876" transform="translate(352 81.4067) scale(1,-1) translate(-352 -81.4067)">UT2</text>
+        <text class="F10" x="350" y="84.74" transform="translate(350 84.74) scale(1,-1) translate(-350 -84.74)">3</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 353.5 86 A 1.5 1.5 0 0 1 350.5 86"/>
+         <path class="P10" d="M 351.25 84 H 352.75 V 86 H 351.25 Z"/>
+         <path class="P5" d="M 352 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31481">
+      <title>=A07+A2-KF7:6.3</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,368,85,1,-1,&apos;Id17_31481&apos;,&apos;Id17_31482&apos;,0)">
+       <g>
+        <text class="F9" x="358.46" y="88" transform="translate(358.46 88) rotate(90) scale(1,-1) translate(-358.46 -88)">6.3</text>
+        <text class="F16" x="360" y="81.4066876" transform="translate(360 81.4067) scale(1,-1) translate(-360 -81.4067)">GND</text>
+        <text class="F10" x="358" y="84.74" transform="translate(358 84.74) scale(1,-1) translate(-358 -84.74)">3</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 361.5 86 A 1.5 1.5 0 0 1 358.5 86"/>
+         <path class="P10" d="M 359.25 84 H 360.75 V 86 H 359.25 Z"/>
+         <path class="P5" d="M 360 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31482">
+      <title>=A07+A2-KF7:6.4</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_612.svg&apos;,212,285,1,-1,&apos;Id17_31482&apos;,&apos;Id17_31495&apos;,1)">
+       <g>
+        <text class="F9" x="366.46" y="88" transform="translate(366.46 88) rotate(90) scale(1,-1) translate(-366.46 -88)">6.4</text>
+        <text class="F16" x="368" y="81.4066876" transform="translate(368 81.4067) scale(1,-1) translate(-368 -81.4067)">FE</text>
+        <text class="F10" x="366" y="84.74" transform="translate(366 84.74) scale(1,-1) translate(-366 -84.74)">3</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 369.5 86 A 1.5 1.5 0 0 1 366.5 86"/>
+         <path class="P10" d="M 367.25 84 H 368.75 V 86 H 367.25 Z"/>
+         <path class="P5" d="M 368 88 V 87.5"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31487">
+      <title>+A2-XD9:21</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,352,97,1,-1,&apos;Id17_31487&apos;,&apos;Id17_31597&apos;,0)">
+       <g>
+        <text class="F12" x="338.96" y="96" transform="translate(338.96 96) rotate(90) scale(1,-1) translate(-338.96 -96)">21</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="340" cy="96" r="0.75"/>
+         <path class="P7" d="M 340 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id59_31559">
+      <title>+B1-WD5</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;&apos;,0,0,0,0,&apos;Id59_31559&apos;,0,0)">
+       <g>
+        <text class="F15" x="297.5" y="216.5" transform="translate(297.5 216.5) scale(1,-1) translate(-297.5 -216.5)">BU</text>
+        <g>
+         <desc>group</desc>
+         <path class="P9" d="M 295 217 297 215"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31565">
+      <title>+B1-WD5</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,292,217,1,-1,&apos;Id17_31565&apos;,&apos;Id17_29850&apos;,1)">
+       <g>
+        <text class="F13" x="336" y="216.75" transform="translate(336 216.75) scale(1,-1) translate(-336 -216.75)">-WD5</text>
+        <text class="F14" x="336" y="213.84" transform="translate(336 213.84) scale(1,-1) translate(-336 -213.84)">4X0,75</text>
+        <path class="P7" d="M 336 216 H 356"/>
+       </g>
+      </a>
+     </g>
+     <g id="Id59_31566">
+      <title>+B1-WD5</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;&apos;,0,0,0,0,&apos;Id59_31566&apos;,0,0)">
+       <g>
+        <text class="F15" x="341.5" y="216.5" transform="translate(341.5 216.5) scale(1,-1) translate(-341.5 -216.5)">BK</text>
+        <g>
+         <desc>group</desc>
+         <path class="P9" d="M 339 217 341 215"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31592">
+      <title>+A2-XD9:2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,76,97,1,-1,&apos;Id17_31592&apos;,&apos;Id17_32629&apos;,0)">
+       <g>
+        <text class="F12" x="66.96" y="96" transform="translate(66.96 96) rotate(90) scale(1,-1) translate(-66.96 -96)">2</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="68" cy="96" r="0.75"/>
+         <path class="P7" d="M 68 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31593">
+      <title>+A2-XD9:6</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,120,97,1,-1,&apos;Id17_31593&apos;,&apos;Id17_32631&apos;,0)">
+       <g>
+        <text class="F12" x="110.96" y="96" transform="translate(110.96 96) rotate(90) scale(1,-1) translate(-110.96 -96)">6</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="112" cy="96" r="0.75"/>
+         <path class="P7" d="M 112 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31594">
+      <title>+A2-XD9:10</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,196,97,1,-1,&apos;Id17_31594&apos;,&apos;Id17_32633&apos;,0)">
+       <g>
+        <text class="F12" x="186.96" y="96" transform="translate(186.96 96) rotate(90) scale(1,-1) translate(-186.96 -96)">10</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="188" cy="96" r="0.75"/>
+         <path class="P7" d="M 188 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31595">
+      <title>+A2-XD9:14</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,240,97,1,-1,&apos;Id17_31595&apos;,&apos;Id17_32635&apos;,0)">
+       <g>
+        <text class="F12" x="230.96" y="96" transform="translate(230.96 96) rotate(90) scale(1,-1) translate(-230.96 -96)">14</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="232" cy="96" r="0.75"/>
+         <path class="P7" d="M 232 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31596">
+      <title>+A2-XD9:18</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,316,97,1,-1,&apos;Id17_31596&apos;,&apos;Id17_32637&apos;,0)">
+       <g>
+        <text class="F12" x="306.96" y="96" transform="translate(306.96 96) rotate(90) scale(1,-1) translate(-306.96 -96)">18</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="308" cy="96" r="0.75"/>
+         <path class="P7" d="M 308 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_31597">
+      <title>+A2-XD9:22</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,360,97,1,-1,&apos;Id17_31597&apos;,&apos;Id17_32639&apos;,0)">
+       <g>
+        <text class="F12" x="350.96" y="96" transform="translate(350.96 96) rotate(90) scale(1,-1) translate(-350.96 -96)">22</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="352" cy="96" r="0.75"/>
+         <path class="P7" d="M 352 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32629">
+      <title>+A2-XD9:3</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,84,97,1,-1,&apos;Id17_32629&apos;,&apos;Id17_32630&apos;,0)">
+       <g>
+        <text class="F12" x="74.96" y="96" transform="translate(74.96 96) rotate(90) scale(1,-1) translate(-74.96 -96)">3</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="76" cy="96" r="0.75"/>
+         <path class="P7" d="M 76 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32630">
+      <title>+A2-XD9:4</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,100,97,1,-1,&apos;Id17_32630&apos;,&apos;Id17_31206&apos;,0)">
+       <g>
+        <text class="F12" x="82.96" y="96" transform="translate(82.96 96) rotate(90) scale(1,-1) translate(-82.96 -96)">4</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="84" cy="96" r="0.75"/>
+         <path class="P7" d="M 84 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32631">
+      <title>+A2-XD9:7</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,128,97,1,-1,&apos;Id17_32631&apos;,&apos;Id17_32632&apos;,0)">
+       <g>
+        <text class="F12" x="118.96" y="96" transform="translate(118.96 96) rotate(90) scale(1,-1) translate(-118.96 -96)">7</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="120" cy="96" r="0.75"/>
+         <path class="P7" d="M 120 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32632">
+      <title>+A2-XD9:8</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,176,97,1,-1,&apos;Id17_32632&apos;,&apos;Id17_29522&apos;,0)">
+       <g>
+        <text class="F12" x="126.96" y="96" transform="translate(126.96 96) rotate(90) scale(1,-1) translate(-126.96 -96)">8</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="128" cy="96" r="0.75"/>
+         <path class="P7" d="M 128 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32633">
+      <title>+A2-XD9:11</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,204,97,1,-1,&apos;Id17_32633&apos;,&apos;Id17_32634&apos;,0)">
+       <g>
+        <text class="F12" x="194.96" y="96" transform="translate(194.96 96) rotate(90) scale(1,-1) translate(-194.96 -96)">11</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="196" cy="96" r="0.75"/>
+         <path class="P7" d="M 196 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32634">
+      <title>+A2-XD9:12</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,220,97,1,-1,&apos;Id17_32634&apos;,&apos;Id17_31473&apos;,0)">
+       <g>
+        <text class="F12" x="202.96" y="96" transform="translate(202.96 96) rotate(90) scale(1,-1) translate(-202.96 -96)">12</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="204" cy="96" r="0.75"/>
+         <path class="P7" d="M 204 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32635">
+      <title>+A2-XD9:15</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,248,97,1,-1,&apos;Id17_32635&apos;,&apos;Id17_32636&apos;,0)">
+       <g>
+        <text class="F12" x="238.96" y="96" transform="translate(238.96 96) rotate(90) scale(1,-1) translate(-238.96 -96)">15</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="240" cy="96" r="0.75"/>
+         <path class="P7" d="M 240 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32636">
+      <title>+A2-XD9:16</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,296,97,1,-1,&apos;Id17_32636&apos;,&apos;Id17_29523&apos;,0)">
+       <g>
+        <text class="F12" x="246.96" y="96" transform="translate(246.96 96) rotate(90) scale(1,-1) translate(-246.96 -96)">16</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="248" cy="96" r="0.75"/>
+         <path class="P7" d="M 248 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32637">
+      <title>+A2-XD9:19</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,324,97,1,-1,&apos;Id17_32637&apos;,&apos;Id17_32638&apos;,0)">
+       <g>
+        <text class="F12" x="314.96" y="96" transform="translate(314.96 96) rotate(90) scale(1,-1) translate(-314.96 -96)">19</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="316" cy="96" r="0.75"/>
+         <path class="P7" d="M 316 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32638">
+      <title>+A2-XD9:20</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,340,97,1,-1,&apos;Id17_32638&apos;,&apos;Id17_31487&apos;,0)">
+       <g>
+        <text class="F12" x="322.96" y="96" transform="translate(322.96 96) rotate(90) scale(1,-1) translate(-322.96 -96)">20</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="324" cy="96" r="0.75"/>
+         <path class="P7" d="M 324 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32639">
+      <title>+A2-XD9:23</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,368,97,1,-1,&apos;Id17_32639&apos;,&apos;Id17_32640&apos;,0)">
+       <g>
+        <text class="F12" x="358.96" y="96" transform="translate(358.96 96) rotate(90) scale(1,-1) translate(-358.96 -96)">23</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="360" cy="96" r="0.75"/>
+         <path class="P7" d="M 360 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_32640">
+      <title>+A2-XD9:24</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_216.svg&apos;,56,97,1,-1,&apos;Id17_32640&apos;,&apos;Id17_32664&apos;,1)">
+       <g>
+        <text class="F12" x="366.96" y="96" transform="translate(366.96 96) rotate(90) scale(1,-1) translate(-366.96 -96)">24</text>
+        <g>
+         <desc>group</desc>
+         <circle class="P7" cx="368" cy="96" r="0.75"/>
+         <path class="P7" d="M 368 95.25 V 94"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id59_32657">
+      <title>+A3-WD2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;&apos;,0,0,0,0,&apos;Id59_32657&apos;,0,0)">
+       <g>
+        <text class="F15" x="189.5" y="216.5" transform="translate(189.5 216.5) scale(1,-1) translate(-189.5 -216.5)">BN</text>
+        <g>
+         <desc>group</desc>
+         <path class="P9" d="M 187 217 189 215"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id59_32658">
+      <title>+A3-WD2</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;&apos;,0,0,0,0,&apos;Id59_32658&apos;,0,0)">
+       <g>
+        <text class="F15" x="233.5" y="216.5" transform="translate(233.5 216.5) scale(1,-1) translate(-233.5 -216.5)">GY</text>
+        <g>
+         <desc>group</desc>
+         <path class="P9" d="M 231 217 233 215"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id59_32659">
+      <title>+B1-WD5</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;&apos;,0,0,0,0,&apos;Id59_32659&apos;,0,0)">
+       <g>
+        <text class="F15" x="309.5" y="216.5" transform="translate(309.5 216.5) scale(1,-1) translate(-309.5 -216.5)">BN</text>
+        <g>
+         <desc>group</desc>
+         <path class="P9" d="M 307 217 309 215"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id59_32660">
+      <title>+B1-WD5</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;&apos;,0,0,0,0,&apos;Id59_32660&apos;,0,0)">
+       <g>
+        <text class="F15" x="353.5" y="216.5" transform="translate(353.5 216.5) scale(1,-1) translate(-353.5 -216.5)">GY</text>
+        <g>
+         <desc>group</desc>
+         <path class="P9" d="M 351 217 353 215"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id88_32734">
+      <title>=A06+A3</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;&apos;,0,0,0,0,&apos;Id88_32734&apos;,0,0)">
+       <g>
+        <text class="F17" x="145.653663" y="267.5" transform="translate(145.654 267.5) rotate(90) scale(1,-1) translate(-145.654 -267.5)">+A3</text>
+        <path class="P12" d="M 140 259.235 H 146.375 V 268 H 252 V 208 H 140 Z"/>
+       </g>
+      </a>
+     </g>
+     <g id="Id88_32735">
+      <title>=A06+B1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;&apos;,0,0,0,0,&apos;Id88_32735&apos;,0,0)">
+       <g>
+        <text class="F17" x="265.653663" y="267.5" transform="translate(265.654 267.5) rotate(90) scale(1,-1) translate(-265.654 -267.5)">+B1</text>
+        <path class="P12" d="M 260 259.285 H 266.375 V 268 H 372 V 208 H 260 Z"/>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_34124">
+      <title>=A06+A3-SF1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,176,257,1,-1,&apos;Id17_34124&apos;,&apos;Id17_27257&apos;,1)">
+       <g>
+        <text class="F9" x="218.86" y="259.1" transform="translate(218.86 259.1) rotate(90) scale(1,-1) translate(-218.86 -259.1)">23</text>
+        <text class="F10" x="218.86" y="252.9" transform="translate(218.86 252.9) rotate(90) scale(1,-1) translate(-218.86 -252.9)">24</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 217.5 258.5 220 254"/>
+         <path class="P7" d="M 220 254 V 252"/>
+         <path class="P7" d="M 220 260 V 258"/>
+        </g>
+       </g>
+      </a>
+     </g>
+     <g id="Id17_34125">
+      <title>=A06+B1-SF1</title>
+      <desc>Symbol</desc>
+      <a xlink:href="javascript:jumpToFunction(&apos;[ESS]_Sample_Project-4_26.svg&apos;,296,257,1,-1,&apos;Id17_34125&apos;,&apos;Id17_27260&apos;,1)">
+       <g>
+        <text class="F9" x="338.86" y="259.1" transform="translate(338.86 259.1) rotate(90) scale(1,-1) translate(-338.86 -259.1)">23</text>
+        <text class="F10" x="338.86" y="252.9" transform="translate(338.86 252.9) rotate(90) scale(1,-1) translate(-338.86 -252.9)">24</text>
+        <g>
+         <desc>group</desc>
+         <path class="P7" d="M 337.5 258.5 340 254"/>
+         <path class="P7" d="M 340 254 V 252"/>
+         <path class="P7" d="M 340 260 V 258"/>
+        </g>
+       </g>
+      </a>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <script type="text/ecmascript" xlink:href="SVGScripting.js"/>
+</svg>

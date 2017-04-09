@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { SvgText } from '../../models/svg-text'
+import { SvgItem } from '../../models/svg-item'
 
 @Component({
   selector: 'app-root',
@@ -18,13 +20,15 @@ export class AppComponent {
   startY;
   lastElementId: number = 0;
   dragging = false;
-  svgElements = [];
+  svgElements: SvgItem[] = [];
   private lasttDraggingPoint;
   statusText = "-ready-";
 
   public ngOnInit() {
     console.log("init");
-    this.appendElement({ type: "text", x: 30, y: 140, text: "hallo" });
+
+    let text = new SvgText('hallo', 30, 150);
+    this.appendElement(text);
 
     this.updateTransform();
   }
@@ -61,14 +65,15 @@ export class AppComponent {
   }
 
 
-  private appendElement(ele) {
+  private appendElement(element: SvgItem): SvgItem {
     this.lastElementId++;
-    ele.index = this.lastElementId;
-    this.svgElements.push(ele);
+    element.index = this.lastElementId;
+    this.svgElements.push(element);
+    return element;
   }
 
   public addText() {
-    this.appendElement({ type: "text", x: 200, y: 100, text: "new text" });
+    let text = this.appendElement(new SvgText("text", 200, 100));
   }
 
   public deleteText() {
