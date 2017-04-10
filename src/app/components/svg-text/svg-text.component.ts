@@ -17,4 +17,15 @@ export class SvgTextComponent implements OnInit {
   ngOnInit() {
   }
 
+  public get lines(): string[] {
+    return this.element.text.split('\n');
+  }
+
+  public get bbox(): any {
+    return {
+      width: 50,
+      height: 30 + 20 * (this.lines.length - 1)
+    };
+  }
+
 }

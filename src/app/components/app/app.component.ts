@@ -73,7 +73,7 @@ export class AppComponent {
   }
 
   public addText() {
-    this.appendElement(new SvgText('text', 200, 100));
+    this.appendElement(new SvgText("a-first-line\nb-second-line\nc-last-line", 200, 100));
   }
 
   public deleteText() {
