@@ -23,5 +23,3 @@ git push > /dev/null 2>&1
 cd ..
 
 echo === finished azure deploy
-
-Ï
