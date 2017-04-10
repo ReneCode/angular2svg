@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/ReneCode/angular2svg.svg?branch=master)](https://travis-ci.org/ReneCode/angular2svg)
 
-https://travis-ci.org/ReneCode/angular2svg.svg?branch=master
-
 Working with Angular2 and SVG
 
 Look to that [useful blog](http://blog.500tech.com/svg-in-angular-2/)
