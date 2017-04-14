@@ -23,10 +23,10 @@ export class PanZoomComponent implements OnInit {
         this.svgTransform.tx += 50;
         break;
       case 'up':
-        this.svgTransform.ty += 50;
+        this.svgTransform.ty -= 50;
         break;
       case 'down':
-        this.svgTransform.ty -= 50;
+        this.svgTransform.ty += 50;
         break;
       case '+':
         this.svgTransform.sc *= 1.1;
