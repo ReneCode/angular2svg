@@ -10,7 +10,6 @@ import { SvgItem } from '../../models/svg-item';
 export class AppComponent {
 
   public transform = {
-    text: '',
     tx: 0,
     ty: 0,
     sc: 1.0
@@ -29,41 +28,7 @@ export class AppComponent {
 
     let text = new SvgText('hallo', 30, 150);
     this.appendElement(text);
-
-    this.updateTransform();
   }
-
-
-  private updateTransform() {
-    this.transform.text =
-      `translate(${this.transform.tx},${this.transform.ty})scale(${this.transform.sc})`;
-    console.log(this.transform.text);
-  }
-
-  public panZoom(cmd: String) {
-    switch (cmd) {
-      case 'left':
-        this.transform.tx += 50;
-        break;
-      case 'right':
-        this.transform.tx -= 50;
-        break;
-      case 'up':
-        this.transform.ty += 50;
-        break;
-      case 'down':
-        this.transform.ty -= 50;
-        break;
-      case '+':
-        this.transform.sc *= 1.1;
-        break;
-      case '-':
-        this.transform.sc *= 0.9;
-        break;
-    }
-    this.updateTransform();
-  }
-
 
   private appendElement(element: SvgItem): SvgItem {
     this.lastElementId++;
@@ -73,7 +38,7 @@ export class AppComponent {
   }
 
   public addText() {
-    this.appendElement(new SvgText("a-first-line\nb-second-line\nc-last-line", 200, 100));
+    this.appendElement(new SvgText('a-first-line\nb-second-line\nc-last-line', 200, 100));
   }
 
   public deleteText() {

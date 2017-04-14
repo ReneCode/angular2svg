@@ -17,7 +17,9 @@
 
           <svg width="800" height="600" style='stroke-width: 0px; background-color: #eee;' (mousedown)="mouseDown($event)" (mousemove)="mouseMove($event)"
             (mouseup)="mouseUp($event)">
-            <g id="main" [attr.transform]="transform.text">
+            <g appSvgTransform [svgTransform]="transform">
+            
+            <!--<g id="main" [attr.transform]="transform.text">-->
               <!--<g app-svg-eplan></g>-->
 <!--
               <g id="b">
@@ -34,13 +36,15 @@
 
 
 
+              <text x="10" y="10" font-size="15">hi</text>
+
               <g *ngFor="let element of svgElements">
                 <g *ngIf="element.type==='text'" app-svg-text [element]="element"></g>
               </g>
 
             </g>
             <g transform="translate(700,0)">
-              <g app-pan-zoom (onPanZoom)="panZoom($event)"></g>
+              <g app-pan-zoom [svgTransform]="transform"></g>
               <text x="-400" y="20" font-size="15">{{statusText}}</text>
 
             </g>
