@@ -1,5 +1,4 @@
-<svg:g>
-    <rect *ngIf="element.selected" [attr.x]="element.x-5" [attr.y]="element.y-20" [attr.width]="bbox.width" [attr.height]="bbox.height" fill="#67e" />
+<svg:g>  
     <text *ngIf="lines.length===1" class="svg-text" [attr.id]="element.id" [attr.x]="element.x" [attr.y]="element.y" font-size="20">{{element.text}}</text>
 
     <text *ngIf="lines.length!==1" class="svg-text" [attr.x]="element.x" [attr.y]="element.y" font-size="20">

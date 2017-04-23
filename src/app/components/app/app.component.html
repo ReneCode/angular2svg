@@ -1,7 +1,7 @@
 <div class="container">
   <div class="panel panel-default">
     <div class="panel-heading">
-      Angular2 + SVG | 
+      Angular2 + SVG |
       <a href="http://angular2svg.azurewebsites.net/">website</a> |
       <a href="https://github.com/ReneCode/angular2svg">github repository</a> |
       <a href="http://petercollingridge.appspot.com/svg-optimiser">using SVG optimizer</a> |
@@ -15,33 +15,18 @@
             <button class="btn btn-warning" (click)="deleteText()">Delete</button>
           </div>
 
-          <svg width="800" height="600" style='stroke-width: 0px; background-color: #eee;' (mousedown)="mouseDown($event)" (mousemove)="mouseMove($event)"
+
+          <!--</div>
+          <div ng-include="https://cs2-projectviewerservice-dev.azurewebsites.net/api/v1/750057417/svg/1.svg" class="ng-scope">
+          </div>-->
+
+          <svg width="800" height="400" style='stroke-width: 0px; background-color: #eee;' (mousedown)="mouseDown($event)" (mousemove)="mouseMove($event)"
             (mouseup)="mouseUp($event)">
             <g appSvgTransform [svgTransform]="transform">
-            
-            <!--<g id="main" [attr.transform]="transform.text">-->
-              <!--<g app-svg-eplan></g>-->
-<!--
-              <g id="b">
-                <text x="0" y="15" fill="black">
-                  Rectangle #1: Without opacity.</text>
-                <rect x="100" y="30" width="300" height="100" style="fill:rgb(121,0,121);stroke-width:3;stroke:rgb(0,0,0)" />
-              </g>
-              <g id="a">
-                <text x="0" y="215" fill="black">
-                  Rectangle #2: With opacity </text>
-                <rect x="100" y="230" width="300" height="100" style="fill:rgb(121,0,121);stroke-width:3;stroke:rgb(0,0,0);
- stroke-opacity:0.2;opacity:0.2" />
-              </g>-->
-
-
-
-              <text x="10" y="10" font-size="15">hi</text>
 
               <g *ngFor="let element of svgElements">
-                <g *ngIf="element.type==='text'" app-svg-text [element]="element"></g>
+                <g app-svg-item [element]="element"></g>
               </g>
-
             </g>
             <g transform="translate(700,0)">
               <g app-pan-zoom [svgTransform]="transform"></g>

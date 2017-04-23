@@ -1,0 +1,9 @@
+<svg:g>
+  <rect *ngIf="element.selected" [attr.x]="element.bbox.x" [attr.y]="element.bbox.y" 
+    [attr.width]="element.bbox.width" [attr.height]="element.bbox.height" 
+    fill="#87e" style="opacity:0.3" />
+
+  <g #svgGraphic>
+    <g *ngIf="element.type==='text'" app-svg-text [element]="element"></g>
+  </g>
+</svg:g>

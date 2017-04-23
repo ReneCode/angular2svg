@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Http } from '@angular/http';
+
 import { SvgText } from '../../models/svg-text';
 import { SvgItem } from '../../models/svg-item';
 
@@ -22,13 +24,16 @@ export class AppComponent {
   svgElements: SvgItem[] = [];
   private lasttDraggingPoint;
   statusText = '-status-';
+  svg: SVGElement;
+  svgUrl: string = "https://cs2-projectviewerservice-dev.azurewebsites.net/api/v1/750057417/svg/1.svg";
+
+  constructor(private http: Http) { }
 
   public ngOnInit() {
-    console.log('init');
-
     let text = new SvgText('hallo', 30, 150);
     this.appendElement(text);
   }
+
 
   private appendElement(element: SvgItem): SvgItem {
     this.lastElementId++;
@@ -38,7 +43,9 @@ export class AppComponent {
   }
 
   public addText() {
-    this.appendElement(new SvgText('a-first-line\nb-second-line\nc-last-line', 200, 100));
+    let text: SvgText = new SvgText('a-first-line\nb-second-line\nc-last-line', 200, 100);
+    // text.selected = true;
+    this.appendElement(text);
   }
 
   public deleteText() {
@@ -66,6 +73,7 @@ export class AppComponent {
         .forEach(e => {
           e.x += deltaX;
           e.y += deltaY;
+          e.bbox = undefined;
         });
     }
 
@@ -112,18 +120,7 @@ export class AppComponent {
       } else {
         this.svgElements.forEach(e => e.selected = false);
       }
-
-      // this.statusText = element;
-      // }
-      // elements.push(element);
-      // old_visibility.push(element.style.visibility);
-      // element.style.visibility = 'hidden'; // Temporarily hide the element (without changing the layout)
     }
-    // for (var k = 0; k < elements.length; k++) {
-    //   elements[k].style.visibility = old_visibility[k];
-    // }
-    // elements.reverse();
-    // return elements;
   }
 
   public mouseUp(event) {
