@@ -13,6 +13,9 @@
           <div>
             <button class="btn btn-primary" (click)="addText()">Add Text</button>
             <button class="btn btn-warning" (click)="deleteText()">Delete</button>
+            <input [(ngModel)]="transform.tx">
+            <input [(ngModel)]="transform.ty">
+            <input [(ngModel)]="transform.sc">
           </div>
 
 
@@ -20,20 +23,20 @@
           <div ng-include="https://cs2-projectviewerservice-dev.azurewebsites.net/api/v1/750057417/svg/1.svg" class="ng-scope">
           </div>-->
 
-          <svg width="800" height="400" style='stroke-width: 0px; background-color: #eee;' (mousedown)="mouseDown($event)" (mousemove)="mouseMove($event)"
+          <svg mouse-wheel (mouseWheelUp)="mouseWheelUp($event)" (mouseWheelDown)="mouseWheelDown($event)" width="800" height="400"
+            style='stroke-width: 0px; background-color: #eee;' (mousedown)="mouseDown($event)" (mousemove)="mouseMove($event)"
             (mouseup)="mouseUp($event)">
-            <g appSvgTransform [svgTransform]="transform">
 
-              <g *ngFor="let element of svgElements">
+            <g appSvgTransform [svgTransform]="transform">
+              <line x1="100" y1="50" x2="500" y2="100" style="stroke:rgb(255,0,0);stroke-width:2" />
+              <ng-container *ngFor="let element of svgElements">
                 <g app-svg-item [element]="element"></g>
-              </g>
+              </ng-container>
             </g>
             <g transform="translate(700,0)">
-              <g app-pan-zoom [svgTransform]="transform"></g>
+              <g *ngIf="bOn" app-pan-zoom [svgTransform]="transform"></g>
               <text x="-400" y="20" font-size="15">{{statusText}}</text>
-
             </g>
-
           </svg>
         </div>
       </div>

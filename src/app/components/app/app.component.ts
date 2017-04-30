@@ -22,6 +22,7 @@ export class AppComponent {
   lastElementId: number = 0;
   dragging = false;
   svgElements: SvgItem[] = [];
+  public bOn: boolean = true;
   private lasttDraggingPoint;
   statusText = '-status-';
   svg: SVGElement;
@@ -30,7 +31,7 @@ export class AppComponent {
   constructor(private http: Http) { }
 
   public ngOnInit() {
-    let text = new SvgText('hallo', 30, 150);
+    let text = new SvgText('hallo - 1234567890 abcdefghijkl', 100, 50);
     this.appendElement(text);
   }
 
@@ -69,6 +70,10 @@ export class AppComponent {
       let deltaY = pt.y - this.lasttDraggingPoint.y;
       this.lasttDraggingPoint = pt;
 
+      // let delta = this.untransformedPoint( {x: deltaX, y: deltaY });
+      // deltaX = delta.x;
+      // deltaY = delta.y;
+
       this.selectedSvgElements()
         .forEach(e => {
           e.x += deltaX;
@@ -76,7 +81,41 @@ export class AppComponent {
           e.bbox = undefined;
         });
     }
+  }
 
+
+  private untransformedPoint(pt) {
+    return {
+      x: (pt.x - this.transform.tx) / this.transform.sc,
+      y: (pt.y - this.transform.ty) / this.transform.sc
+    }
+  }
+
+  private zoom(pt, scale) {
+    pt = this.untransformedPoint(pt);
+
+    let deltaScale = scale - this.transform.sc;
+    this.transform.sc = scale;
+    this.transform.tx -= deltaScale * pt.x;
+    this.transform.ty -= deltaScale * pt.y;
+  }
+
+
+  public mouseWheelUp(event) {
+    let scale = this.transform.sc * 0.98;
+    let pt = this.getSVGPoint(event);
+    this.zoom(pt, scale);
+  }
+
+  public mouseWheelDown(event) {
+    let scale = this.transform.sc * 1.02;
+    let pt = this.getSVGPoint(event);
+    this.zoom(pt, scale);
+  }
+
+  public get items() {
+    console.log("get items");
+    return [1, 2, 3, 4];
   }
 
   private selectedSvgElements(): any[] {
@@ -91,7 +130,7 @@ export class AppComponent {
     pt.x = event.clientX;
     pt.y = event.clientY;
     pt = pt.matrixTransform(svg.getScreenCTM().inverse());
-    return pt;
+    return { x: pt.x, y:pt.y };
   }
 
   private getPoint(event) {

@@ -11,6 +11,9 @@ import { SvgTransformDirective } from './directives/svg-transform/svg-transform.
 import { SvgTextComponent } from './components/svg-text/svg-text.component';
 import { SvgItemComponent } from './components/svg-item/svg-item.component';
 
+import { MouseWheelDirective } from './directives/mouse-wheel.directive';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +22,7 @@ import { SvgItemComponent } from './components/svg-item/svg-item.component';
     SvgEplanComponent,
     SvgTextComponent,
     SvgTransformDirective,
+    MouseWheelDirective,
     SvgItemComponent
   ],
   imports: [
