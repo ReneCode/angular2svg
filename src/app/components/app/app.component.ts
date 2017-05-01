@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
 
 import { SvgText } from '../../models/svg-text';
@@ -9,7 +9,7 @@ import { SvgItem } from '../../models/svg-item';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 
   public transform = {
     tx: 0,
