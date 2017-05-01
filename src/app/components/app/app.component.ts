@@ -23,7 +23,7 @@ export class AppComponent {
   dragging = false;
   svgElements: SvgItem[] = [];
   public bOn: boolean = true;
-  private lasttDraggingPoint;
+  private lastDraggingPoint;
   statusText = '-status-';
   svg: SVGElement;
   svgUrl: string = "https://cs2-projectviewerservice-dev.azurewebsites.net/api/v1/750057417/svg/1.svg";
@@ -66,13 +66,9 @@ export class AppComponent {
     this.statusText = pt.x + '/' + pt.y;
 
     if (this.dragging) {
-      let deltaX = pt.x - this.lasttDraggingPoint.x;
-      let deltaY = pt.y - this.lasttDraggingPoint.y;
-      this.lasttDraggingPoint = pt;
-
-      // let delta = this.untransformedPoint( {x: deltaX, y: deltaY });
-      // deltaX = delta.x;
-      // deltaY = delta.y;
+      let deltaX = pt.x - this.lastDraggingPoint.x;
+      let deltaY = pt.y - this.lastDraggingPoint.y;
+      this.lastDraggingPoint = pt;
 
       this.selectedSvgElements()
         .forEach(e => {
@@ -83,23 +79,12 @@ export class AppComponent {
     }
   }
 
-
-  private untransformedPoint(pt) {
-    return {
-      x: (pt.x - this.transform.tx) / this.transform.sc,
-      y: (pt.y - this.transform.ty) / this.transform.sc
-    }
-  }
-
   private zoom(pt, scale) {
-    pt = this.untransformedPoint(pt);
-
     let deltaScale = scale - this.transform.sc;
     this.transform.sc = scale;
     this.transform.tx -= deltaScale * pt.x;
     this.transform.ty -= deltaScale * pt.y;
   }
-
 
   public mouseWheelUp(event) {
     let scale = this.transform.sc * 0.98;
@@ -113,15 +98,9 @@ export class AppComponent {
     this.zoom(pt, scale);
   }
 
-  public get items() {
-    console.log("get items");
-    return [1, 2, 3, 4];
-  }
-
   private selectedSvgElements(): any[] {
     return this.svgElements.filter(e => e.selected === true);
   }
-
 
   private getSVGPoint(event) {
     let svg = document.querySelector('svg');
@@ -130,7 +109,11 @@ export class AppComponent {
     pt.x = event.clientX;
     pt.y = event.clientY;
     pt = pt.matrixTransform(svg.getScreenCTM().inverse());
-    return { x: pt.x, y:pt.y };
+
+    return {
+      x: (pt.x - this.transform.tx) / this.transform.sc,
+      y: (pt.y - this.transform.ty) / this.transform.sc
+    };
   }
 
   private getPoint(event) {
@@ -155,7 +138,7 @@ export class AppComponent {
       if (svgElement) {
         svgElement.selected = true;
         this.dragging = true;
-        this.lasttDraggingPoint = this.getSVGPoint(event);
+        this.lastDraggingPoint = this.getSVGPoint(event);
       } else {
         this.svgElements.forEach(e => e.selected = false);
       }
@@ -165,27 +148,5 @@ export class AppComponent {
   public mouseUp(event) {
     this.dragging = false;
   }
-
-  // private mouseMove(event) {
-  //   if (this.dragging) {
-  //     this.transform.tx += event.clientX - this.startX;
-  //     this.transform.ty += event.clientY - this.startY;
-
-  //     this.startX = event.clientX;
-  //     this.startY = event.clientY;
-
-  //     this.updateTransform();
-  //   }
-  // }
-
-  // private mouseUp(event) {
-  //   this.dragging = false;;
-  // }
-
-  // private mouseDown(event) {
-  //   this.startX = event.clientX;
-  //   this.startY = event.clientY;
-  //   this.dragging = true;
-  // }
 
 }

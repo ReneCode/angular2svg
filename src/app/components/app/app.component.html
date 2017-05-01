@@ -23,7 +23,7 @@
           <div ng-include="https://cs2-projectviewerservice-dev.azurewebsites.net/api/v1/750057417/svg/1.svg" class="ng-scope">
           </div>-->
 
-          <svg mouse-wheel (mouseWheelUp)="mouseWheelUp($event)" (mouseWheelDown)="mouseWheelDown($event)" width="800" height="400"
+          <svg mouse-wheel [runOutsideAngular]="false" (mouseWheelUp)="mouseWheelUp($event)" (mouseWheelDown)="mouseWheelDown($event)" width="800" height="400"
             style='stroke-width: 0px; background-color: #eee;' (mousedown)="mouseDown($event)" (mousemove)="mouseMove($event)"
             (mouseup)="mouseUp($event)">
 

@@ -1,9 +1,10 @@
-import { NgZone, ElementRef, OnInit, OnDestroy, Directive, Output, EventEmitter } from '@angular/core';
+import { NgZone, ElementRef, OnInit, OnDestroy, Directive, Input, Output, EventEmitter } from '@angular/core';
 
 @Directive({ selector: '[mouse-wheel]' })
 export class MouseWheelDirective implements OnInit, OnDestroy {
     @Output() mouseWheelUp = new EventEmitter();
     @Output() mouseWheelDown = new EventEmitter();
+    @Input() runOutsideAngular: boolean = false;
 
     private wheelFunc: Function;
 
@@ -14,14 +15,21 @@ export class MouseWheelDirective implements OnInit, OnDestroy {
             this.mouseWheelFunc(ev);
         };
 
-        // this.ngZone.runOutsideAngular(() => {
+        let registerFunc = () => {
             // chrome
             this.elementRef.nativeElement.addEventListener('mousewheel', this.wheelFunc, false);
             // firefox
             this.elementRef.nativeElement.addEventListener('DOMMouseScroll', this.wheelFunc, false);
             // IE
             this.elementRef.nativeElement.addEventListener('onmousewheel', this.wheelFunc, false);
-        // });
+        };
+        if (this.runOutsideAngular) {
+            this.ngZone.runOutsideAngular(() => {
+                registerFunc();
+            });
+        } else {
+            registerFunc();
+        }
     }
 
     public ngOnDestroy() {
