@@ -7,6 +7,7 @@ export class MouseWheelDirective implements OnInit, OnDestroy {
     @Input() runOutsideAngular: boolean = false;
 
     private wheelFunc: Function;
+    private eventName: string;
 
     constructor(private ngZone: NgZone, private elementRef: ElementRef) { }
 
@@ -16,19 +17,15 @@ export class MouseWheelDirective implements OnInit, OnDestroy {
         };
 
 
-        const support = 'onwheel' in document.createElement('div') ? 'wheel' : // Modern browsers support "wheel"
+        this.eventName = 'onwheel' in document.createElement('div') ? 'wheel' : // Modern browsers support "wheel"
             document.onmousewheel !== undefined ? 'mousewheel' : // Webkit and IE support at least "mousewheel"
                 'DOMMouseScroll'; // let's assume that remaining browsers are older Firefox
 
-        console.log("### Support", support);
+        console.log("### Support", this.eventName);
 
         let registerFunc = () => {
             // chrome
-            this.elementRef.nativeElement.addEventListener('wheel', this.wheelFunc, false);
-            // firefox
-            this.elementRef.nativeElement.addEventListener('DOMMouseScroll', this.wheelFunc, false);
-            // IE
-            this.elementRef.nativeElement.addEventListener('onmousewheel', this.wheelFunc, false);
+            this.elementRef.nativeElement.addEventListener(this.eventName, this.wheelFunc, false);
         };
         if (this.runOutsideAngular) {
             this.ngZone.runOutsideAngular(() => {
@@ -40,7 +37,7 @@ export class MouseWheelDirective implements OnInit, OnDestroy {
     }
 
     public ngOnDestroy() {
-        this.elementRef.nativeElement.removeEventListener('mousewheel', this.wheelFunc);
+        this.elementRef.nativeElement.removeEventListener(this.eventName, this.wheelFunc);
     }
 
     private mouseWheelFunc(ev: any) {
