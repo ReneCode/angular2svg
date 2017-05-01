@@ -12,7 +12,6 @@ import { SvgTextComponent } from './components/svg-text/svg-text.component';
 import { SvgItemComponent } from './components/svg-item/svg-item.component';
 
 import { MouseWheelDirective } from './directives/mouse-wheel.directive';
-import { SvgMouseWheelZoomDirective } from './directives/svg-mouse-wheel-zoom/svg-mouse-wheel-zoom.directive';
 
 
 @NgModule({
@@ -24,8 +23,7 @@ import { SvgMouseWheelZoomDirective } from './directives/svg-mouse-wheel-zoom/sv
     SvgTextComponent,
     SvgTransformDirective,
     MouseWheelDirective,
-    SvgItemComponent,
-    SvgMouseWheelZoomDirective
+    SvgItemComponent
   ],
   imports: [
     BrowserModule,

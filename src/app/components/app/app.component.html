@@ -18,11 +18,12 @@
             <input [(ngModel)]="transform.sc">
           </div>
 
-          <svg width="800" height="400" mouse-wheel [runOutsideAngular]="false" (mouseWheelUp)="mouseWheelUp($event)" (mouseWheelDown)="mouseWheelDown($event)"
+          <svg width="800" height="400" 
+          mouse-wheel (mouseWheelUp)="mouseWheelUp($event)" (mouseWheelDown)="mouseWheelDown($event)"
             style='stroke-width: 0px; background-color: #eee;' (mousedown)="mouseDown($event)" (mousemove)="mouseMove($event)"
             (mouseup)="mouseUp($event)">
 
-            <g appSvgTransform [svgTransform]="transform">
+            <g #svgTransformGroup=svg-transform svg-transform>
               <line x1="100" y1="50" x2="500" y2="100" style="stroke:rgb(255,0,0);stroke-width:2" />
               <ng-container *ngFor="let element of svgElements">
                 <g app-svg-item [element]="element"></g>
