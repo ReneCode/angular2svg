@@ -1,5 +1,8 @@
 # Angular2SVG
 
+That is a playground for angular & SVG
+
+
 [![Build Status](https://travis-ci.org/ReneCode/angular2svg.svg?branch=master)](https://travis-ci.org/ReneCode/angular2svg)
 
 Working with Angular2 and SVG
